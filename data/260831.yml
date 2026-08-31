@@ -1,0 +1,62 @@
+about:
+  description: Build and deploy AI Agents on Cloudflare 
+  license: MIT
+  homepage: https://developers.cloudflare.com/agents/
+  head: 73d2ed4
+  archived: false
+  latestVersion: @cloudflare/voice-twilio@0.0.3
+  collectedAt: 2026-08-31T06:44:00Z
+timeline:
+  created: 2025-01-29
+  lastCommit: 2026-08-31
+  lastRelease: 2026-08-27
+popularity:
+  star: 5501
+  watcher: 34
+  fork: 694
+  release: 383
+  contributor: 147
+  pullRequest: 252
+  issue: 706
+language:
+  TypeScript: 12638213
+  JavaScript: 61029
+  CSS: 43010
+  Shell: 11394
+  Astro: 10623
+  HTML: 10410
+  Dockerfile: 5577
+totalLine: 12780256
+recent:
+  last30d:
+    since: 2026-08-01
+    release: 20
+    mergedPR: 54
+    openPR: 30
+    closedIssue: 21
+    openIssue: 38
+    commit: 48
+  last90d:
+    since: 2026-06-02
+    release: 96
+    mergedPR: 216
+    openPR: 39
+    closedIssue: 104
+    openIssue: 88
+    commit: 215
+  last180d:
+    since: 2026-03-04
+    release: 100
+    mergedPR: 535
+    openPR: 41
+    closedIssue: 291
+    openIssue: 114
+    commit: 644
+  last360d:
+    since: 2025-09-05
+    release: 100
+    mergedPR: 889
+    openPR: 41
+    closedIssue: 464
+    openIssue: 123
+    commit: 1089
