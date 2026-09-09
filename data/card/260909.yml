@@ -1,0 +1,181 @@
+about:
+  description: "Build and deploy AI Agents on Cloudflare "
+  license: MIT
+  homepage: https://developers.cloudflare.com/agents/
+  head: 9448578
+  archived: false
+  latestVersion: "@cloudflare/voice-twilio@0.0.3"
+  latestRelease: "@cloudflare/voice-twilio@0.0.3"
+  latestPrerelease: ""
+  collectedAt: 2026-09-09T06:13:24Z
+timeline:
+  created: 2025-01-29
+  lastCommit: 2026-09-08
+  lastVersion: 2026-08-27
+  lastRelease: 2026-08-27
+  lastPrerelease: 
+popularity:
+  star: 5533
+  watcher: 35
+  fork: 706
+  release: 383
+  contributor: 149
+  pullRequest: 1430
+  issue: 718
+language:
+  TypeScript: 12986570
+  JavaScript: 61029
+  CSS: 41550
+  Shell: 11394
+  Astro: 10623
+  HTML: 7527
+  Dockerfile: 5577
+totalBytes: 13124270
+recent:
+  last30d:
+    since: 2026-08-10
+    release: 20
+    mergedPR: 47
+    openPR: 16
+    closedIssue: 7
+    openIssue: 38
+    commit: 53
+  last60d:
+    since: 2026-07-11
+    release: 41
+    mergedPR: 103
+    openPR: 36
+    closedIssue: 34
+    openIssue: 69
+    commit: 105
+  last90d:
+    since: 2026-06-11
+    release: 70
+    mergedPR: 186
+    openPR: 41
+    closedIssue: 84
+    openIssue: 93
+    commit: 201
+  last180d:
+    since: 2026-03-13
+    release: 100
+    mergedPR: 521
+    openPR: 43
+    closedIssue: 283
+    openIssue: 124
+    commit: 633
+  last360d:
+    since: 2025-09-14
+    release: 100
+    mergedPR: 888
+    openPR: 43
+    closedIssue: 458
+    openIssue: 134
+    commit: 1085
+  last720d:
+    since: 2024-09-19
+    release: 100
+    mergedPR: 1172
+    openPR: 43
+    closedIssue: 583
+    openIssue: 135
+    commit: 1534
+total:
+  release: 383
+  mergedPR: 1172
+  openPR: 43
+  closedIssue: 583
+  openIssue: 135
+  commit: 1534
+---
+path: /home/runner/.x-repo/github.com/cloudflare/agents
+collectedAt: 2026-09-09T06:13:32Z
+loc:
+  TypeScript:
+    code: 326841
+    comments: 55575
+    blanks: 41680
+    files: 1451
+  Tsx:
+    code: 65260
+    comments: 3034
+    blanks: 5283
+    files: 182
+  Yaml:
+    code: 20355
+    comments: 68
+    blanks: 1440
+    files: 7
+  Json:
+    code: 5515
+    comments: 0
+    blanks: 5
+    files: 235
+  Css:
+    code: 4492
+    comments: 675
+    blanks: 790
+    files: 69
+  JavaScript:
+    code: 1678
+    comments: 330
+    blanks: 155
+    files: 12
+  Html:
+    code: 1021
+    comments: 4
+    blanks: 0
+    files: 71
+  Rust:
+    code: 670
+    comments: 7
+    blanks: 46
+    files: 1
+  Sh:
+    code: 291
+    comments: 36
+    blanks: 35
+    files: 6
+  Svg:
+    code: 47
+    comments: 8
+    blanks: 4
+    files: 7
+  Dockerfile:
+    code: 39
+    comments: 77
+    blanks: 11
+    files: 2
+  Toml:
+    code: 32
+    comments: 0
+    blanks: 7
+    files: 3
+  Vue:
+    code: 29
+    comments: 0
+    blanks: 3
+    files: 1
+  Xml:
+    code: 6
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 48539
+    blanks: 17892
+    files: 275
+  Text:
+    code: 0
+    comments: 716
+    blanks: 156
+    files: 14
+total:
+  code: 438530
+  comments: 110330
+  blanks: 68919
+  files: 2337
+---
+
+---
