@@ -7,7 +7,7 @@ about:
   latestVersion: "@cloudflare/voice-twilio@0.0.3"
   latestRelease: "@cloudflare/voice-twilio@0.0.3"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T17:58:37Z
+  collectedAt: 2026-09-10T23:43:35Z
 timeline:
   created: 2025-01-29
   lastCommit: 2026-09-10
@@ -19,9 +19,9 @@ popularity:
   watcher: 35
   fork: 707
   release: 383
-  contributor: 149
+  contributor: 146
   pullRequest: 1450
-  issue: 718
+  issue: 719
 language:
   TypeScript: 13213084
   JavaScript: 61029
@@ -38,7 +38,7 @@ recent:
     mergedPR: 54
     openPR: 22
     closedIssue: 18
-    openIssue: 26
+    openIssue: 27
     commit: 63
   last60d:
     since: 2026-07-12
@@ -46,7 +46,7 @@ recent:
     mergedPR: 113
     openPR: 40
     closedIssue: 48
-    openIssue: 55
+    openIssue: 56
     commit: 115
   last90d:
     since: 2026-06-12
@@ -54,7 +54,7 @@ recent:
     mergedPR: 192
     openPR: 44
     closedIssue: 96
-    openIssue: 76
+    openIssue: 77
     commit: 211
   last180d:
     since: 2026-03-14
@@ -62,7 +62,7 @@ recent:
     mergedPR: 531
     openPR: 47
     closedIssue: 298
-    openIssue: 108
+    openIssue: 109
     commit: 643
   last360d:
     since: 2025-09-15
@@ -70,7 +70,7 @@ recent:
     mergedPR: 891
     openPR: 47
     closedIssue: 472
-    openIssue: 118
+    openIssue: 119
     commit: 1095
   last720d:
     since: 2024-09-20
@@ -78,18 +78,18 @@ recent:
     mergedPR: 1182
     openPR: 47
     closedIssue: 599
-    openIssue: 119
+    openIssue: 120
     commit: 1544
 total:
   release: 383
   mergedPR: 1182
   openPR: 47
   closedIssue: 599
-  openIssue: 119
+  openIssue: 120
   commit: 1544
 ---
 path: /home/runner/.x-repo/github.com/cloudflare/agents
-collectedAt: 2026-09-10T17:58:45Z
+collectedAt: 2026-09-10T23:43:46Z
 loc:
   TypeScript:
     code: 331884
