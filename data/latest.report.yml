@@ -2,99 +2,99 @@ about:
   description: "Build and deploy AI Agents on Cloudflare "
   license: MIT
   homepage: https://developers.cloudflare.com/agents/
-  head: b9142be
+  head: c96418d
   archived: false
-  latestVersion: "@cloudflare/voice-twilio@0.0.3"
-  latestRelease: "@cloudflare/voice-twilio@0.0.3"
+  latestVersion: "@cloudflare/codemode@0.5.2"
+  latestRelease: "@cloudflare/codemode@0.5.2"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T06:15:58Z
+  collectedAt: 2026-09-11T18:42:16Z
 timeline:
   created: 2025-01-29
-  lastCommit: 2026-09-10
-  lastVersion: 2026-08-27
-  lastRelease: 2026-08-27
+  lastCommit: 2026-09-11
+  lastVersion: 2026-09-11
+  lastRelease: 2026-09-11
   lastPrerelease: 
 popularity:
-  star: 5543
+  star: 5546
   watcher: 35
-  fork: 707
-  release: 383
-  contributor: 146
-  pullRequest: 1451
-  issue: 721
+  fork: 708
+  release: 394
+  contributor: 143
+  pullRequest: 1458
+  issue: 723
 language:
-  TypeScript: 13213084
+  TypeScript: 13215580
   JavaScript: 61029
   CSS: 41550
   Shell: 11394
   Astro: 10623
   HTML: 7527
   Dockerfile: 5577
-totalBytes: 13350784
+totalBytes: 13353280
 recent:
   last30d:
     since: 2026-08-12
-    release: 20
-    mergedPR: 50
-    openPR: 20
+    release: 31
+    mergedPR: 52
+    openPR: 24
     closedIssue: 17
-    openIssue: 28
-    commit: 63
+    openIssue: 30
+    commit: 65
   last60d:
     since: 2026-07-13
-    release: 41
-    mergedPR: 107
-    openPR: 41
+    release: 52
+    mergedPR: 109
+    openPR: 45
     closedIssue: 47
-    openIssue: 58
-    commit: 115
+    openIssue: 60
+    commit: 117
   last90d:
     since: 2026-06-13
-    release: 63
-    mergedPR: 191
-    openPR: 45
+    release: 74
+    mergedPR: 193
+    openPR: 49
     closedIssue: 95
-    openIssue: 79
-    commit: 211
+    openIssue: 81
+    commit: 213
   last180d:
     since: 2026-03-15
     release: 100
-    mergedPR: 531
-    openPR: 48
+    mergedPR: 533
+    openPR: 52
     closedIssue: 297
-    openIssue: 111
-    commit: 643
+    openIssue: 113
+    commit: 645
   last360d:
     since: 2025-09-16
     release: 100
-    mergedPR: 890
-    openPR: 48
+    mergedPR: 892
+    openPR: 52
     closedIssue: 471
-    openIssue: 121
-    commit: 1095
+    openIssue: 123
+    commit: 1097
   last720d:
     since: 2024-09-21
     release: 100
-    mergedPR: 1182
-    openPR: 48
+    mergedPR: 1184
+    openPR: 52
     closedIssue: 599
-    openIssue: 122
-    commit: 1544
+    openIssue: 124
+    commit: 1546
 total:
-  release: 383
-  mergedPR: 1182
-  openPR: 48
+  release: 394
+  mergedPR: 1184
+  openPR: 52
   closedIssue: 599
-  openIssue: 122
-  commit: 1544
+  openIssue: 124
+  commit: 1546
 ---
 path: /home/runner/.x-repo/github.com/cloudflare/agents
-collectedAt: 2026-09-11T06:16:06Z
+collectedAt: 2026-09-11T18:42:24Z
 loc:
   TypeScript:
-    code: 331884
-    comments: 56539
-    blanks: 42132
+    code: 331927
+    comments: 56550
+    blanks: 42138
     files: 1472
   Tsx:
     code: 65258
@@ -163,8 +163,8 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 48582
-    blanks: 17884
+    comments: 48993
+    blanks: 18063
     files: 275
   Text:
     code: 0
@@ -172,11 +172,11 @@ loc:
     blanks: 156
     files: 14
 total:
-  code: 443566
-  comments: 111335
-  blanks: 69349
+  code: 443609
+  comments: 111757
+  blanks: 69534
   files: 2374
 ---
 
 ---
-{"id":377872845,"author":{"login":"ben-reitz","id":20502986,"node_id":"MDQ6VXNlcjIwNTAyOTg2","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDONxkjBM4WheHN","tag_name":"agents@0.22.0","target_commitish":"main","name":"agents@0.22.0","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-08-27T14:02:31Z","updated_at":"2026-08-27T14:07:19Z","published_at":"2026-08-27T14:07:19Z","assets":[],"body":"\n### Minor Changes\n\n- [#2071](https://github.com/cloudflare/agents/pull/2071) [`9620b58`](https://github.com/cloudflare/agents/commit/9620b58fcc78035e1dd9a65a647455f83328bc28) Thanks [@ben-reitz](https://github.com/ben-reitz)! - Make durable chat recovery unconditional for `AIChatAgent` and `Think`.\n\n  Every chat turn now runs in a recovery fiber, including WebSocket, programmatic, retry, and continuation paths. `chatRecovery` accepts `true` or a configuration object; `false` is no longer supported. Previously compiled JavaScript that still supplies `false` safely receives the default recovery configuration.\n\n  To keep durable bookkeeping while preventing automatic inference after an interruption, return `{ continue: false }` from `onChatRecovery()`. Use durable cancellation, side-effect, or spend state in that hook and tune `chatRecovery` budgets when retries must be bounded.\n\n- [#2133](https://github.com/cloudflare/agents/pull/2133) [`d536067`](https://github.com/cloudflare/agents/commit/d536067ce69dfbe82db6c31f4b4d5042792088de) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Vendor the required PartyServer runtime into `agents/lifecycle` and add a reusable Durable Object lifecycle for startup, request interception, alarms, and WebSockets. `Agent` now directly extends Cloudflare's `DurableObject` and composes the same lifecycle used by standalone objects; standalone hosts use the explicit `Lifecycle.install(this)` factory (or the expanded `new ...` plus `installHandlers()` form). Both Agent subclasses and standalone hosts use the existing `routeAgentRequest()` API and `/agents` URL prefix; the lifecycle entry point does not introduce a second public router.\n\n  Lifecycle WebSockets always use Cloudflare's Hibernation API; the `static options.hibernate` switch and in-memory connection mode are removed. Named Durable Objects use native `ctx.id.name`, while a read-only `__ps_name` fallback migrates objects created by older releases without writing new compatibility state.\n\n- [#2058](https://github.com/cloudflare/agents/pull/2058) [`381b9bb`](https://github.com/cloudflare/agents/commit/381b9bb319e2123771eaa82ad485d0f2d28652f1) Thanks [@ben-reitz](https://github.com/ben-reitz)! - Throttle chat UI updates by default in `useAgentChat`\n\n  Streaming writes chat state once per chunk, and each write re-renders. When\n  chunks arrive in a burst \u2014 a resumed stream replaying a long turn, for\n  example \u2014 React reaches its 50-render limit and throws \"Maximum update depth\n  exceeded\", which the AI SDK reports as a failed turn even though the server\n  completed it ([#1913](https://github.com/cloudflare/agents/issues/1913)).\n\n  `useAgentChat` now coalesces those updates every 50ms, which removes about 78%\n  of renders on a fast stream and matches the value the AI SDK documents. The\n  first chunk of a stream is never delayed. Pass `throttle: false` to render\n  every chunk as it arrives, or a number to change the interval. The deprecated\n  `experimental_throttle` is still honoured. Message snapshots, functional\n  updates, and streamed continuations resolve against the current chat store, so\n  coalescing renders cannot roll assistant content back to an older snapshot.\n\n- [#1897](https://github.com/cloudflare/agents/pull/1897) [`29b0107`](https://github.com/cloudflare/agents/commit/29b01079e4cf1ae82918b019f97a247317f49912) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Add `Scheduler`, a reusable Lifecycle capability for persistent delayed, dated, cron, and interval callbacks, under `agents/schedules`. Scheduled callbacks are registered on the Scheduler itself (`new Scheduler({ callbacks: { ... } })`), and `set()` / `every()` type both the callback name and the payload against that registration, so the typed scheduling surface and the runtime dispatch target are the same object. `LifecycleCapability` supplies every capability with storage, readiness, startup state, alarm coordination, a host invocation boundary, best-effort events, and generic capability routing \u2014 Scheduler consumes only that standard surface plus its callbacks and policy options, so any host that installs it configures nothing else. Lifecycle owns the physical Durable Object alarm and routes matching capability messages between Agent facets through one internal transport aperture, preserving existing root-owned facet schedule rows without Scheduler-specific Agent RPC methods or an Agent adapter. `Agent` uses the same Scheduler behind its existing APIs \u2014 name-based `this.schedule(60, \"methodName\")` keeps dispatching to Agent methods through a composition-root resolver \u2014 and preserves callback context, observability, retries, OOM handling, and alarm behavior. MCP now receives storage from Lifecycle when installed. Explicit destruction disposes live capability resources once, then clears shared Durable Object storage with `deleteAll()`. Think workflow notifications now contribute their wake time through Lifecycle instead of writing the physical alarm directly. The previous `agents/schedule` parser entry point remains as a deprecated compatibility alias. Agent exposes the composition root as experimental `this.lifecycle` and `this.scheduler` properties. The `agents/lifecycle` entry point and the capability surfaces built on it (`Scheduler`, installing `MCPClientManager` directly as a capability) are experimental and may change between releases; Agent's established APIs are unaffected.\n\n  Compatibility notes: `MCPClientManagerOptions.storage` is removed \u2014 the manager receives storage from the Lifecycle it is installed on, so standalone construction with an explicit `DurableObjectStorage` is no longer supported. Scheduled callbacks now receive the documented parsed `Schedule` object as their second argument (previously the raw storage row, whose `payload` was an unparsed JSON string). The internal `_cf_*ForFacet` schedule RPC methods are replaced by the generic `_cf_routeLifecycle` capability aperture; facets always run the same deployed script, so no coordination is required.\n\n- [#2161](https://github.com/cloudflare/agents/pull/2161) [`ded09c6`](https://github.com/cloudflare/agents/commit/ded09c6f7b35326b8907ae3552ce9228b88089d2) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Remove the published `agents` command-line binary. Its advertised `init`, `dev`, `deploy`, and `mcp` commands were placeholders that printed \"not implemented yet\" and exited successfully. Use the documented C3 starter, Vite and Wrangler commands, and MCP APIs instead.\n\n- [#1895](https://github.com/cloudflare/agents/pull/1895) [`4ba9a37`](https://github.com/cloudflare/agents/commit/4ba9a375208c2e8209fb407aa3567553e3644067) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Make `MCPClientManager` a reusable Durable Object lifecycle capability. It now owns schema initialization, persisted HTTP and RPC connection restoration, and OAuth callback interception when installed with `Lifecycle.use()`, while preserving `Agent.this.mcp` and the existing Agent MCP APIs. `agents/lifecycle` exports the `LifecycleObject` host interface and canonical `getCurrentAgent()` accessor; Lifecycle supplies that context to host hooks while capability hooks remain self-contained.\n\n### Patch Changes\n\n- [#2027](https://github.com/cloudflare/agents/pull/2027) [`e87ad62`](https://github.com/cloudflare/agents/commit/e87ad62bb6df735cc2910f7dc20edd62111b6410) Thanks [@cjol](https://github.com/cjol)! - Route asynchronous callable and streaming responses through the facet WebSocket frame that originated each RPC.\n\n- [#1978](https://github.com/cloudflare/agents/pull/1978) [`b7c7696`](https://github.com/cloudflare/agents/commit/b7c76964b329b9b5911c0c9a34b8b0f514fffafd) Thanks [@Ankcorn](https://github.com/Ankcorn)! - Add Agents SDK instrumentation and agent instance identity attributes to SDK-created spans.\n\n- [#2050](https://github.com/cloudflare/agents/pull/2050) [`3b43c33`](https://github.com/cloudflare/agents/commit/3b43c337f468688f30d7ea0ff78fdff37d9a5163) Thanks [@ben-reitz](https://github.com/ben-reitz)! - Batch replayed chunks during stream resume so long turns do not exceed React's\n  update limit and report a false error.\n\n- [#2120](https://github.com/cloudflare/agents/pull/2120) [`b038440`](https://github.com/cloudflare/agents/commit/b0384407915cacc9d81951e369466feae4389db0) Thanks [@ben-reitz](https://github.com/ben-reitz)! - Keep Session compaction overlays scoped to their selected conversation branch and preserve deterministic ordering for overlays created in the same second.\n\n- [#2090](https://github.com/cloudflare/agents/pull/2090) [`2f957bc`](https://github.com/cloudflare/agents/commit/2f957bc2a3ffb7aee14792bb3cb658ad3176ed93) Thanks [@ben-reitz](https://github.com/ben-reitz)! - Keep sub-agent WebSocket operations routable and ordered across live and delayed contexts and before broadcasts, report routing failures, and preserve nested sub-agent broadcasts across RPC callbacks.\n\n- [#2131](https://github.com/cloudflare/agents/pull/2131) [`bf94bb2`](https://github.com/cloudflare/agents/commit/bf94bb2f8242f2ad46f6c6c88e56ee5e196cc706) Thanks [@ben-reitz](https://github.com/ben-reitz)! - Fall back to no-op tracing when an older Workers runtime exposes tracing without `startActiveSpan`, preventing Agent initialization from failing.\n\n"}
+{"id":386962216,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDONxkjBM4XEJMo","tag_name":"@cloudflare/codemode@0.5.2","target_commitish":"main","name":"@cloudflare/codemode@0.5.2","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-09-11T10:42:11Z","updated_at":"2026-09-11T10:42:43Z","published_at":"2026-09-11T10:42:43Z","assets":[],"body":"### Patch Changes\n\n-   [#2224](https://github.com/cloudflare/agents/pull/2224) [`dcca089`](https://github.com/cloudflare/agents/commit/dcca0896cc829e4a602a1feb47466ac79d1ca096) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Truncate structured results structurally instead of slicing their JSON.\n\n    `truncateResult` (the default `transformResult` in Think's execute tool and the browser tools) and the `codeMcpServer` / `openApiMcpServer` response path used to pretty-print an oversized object and cut it at a character count, leaving the model with half a JSON document. Oversized values are now shrunk in place, largest values first: strings are clipped with a `--- TRUNCATED --- <n> chars` suffix, arrays keep their leading items and end with a `--- TRUNCATED --- <n> more items` element, and an object only loses entries (largest first, named in a `\"--- TRUNCATED ---\"` entry) when its values cannot share the budget. The output is always valid JSON of the original shape and small values pass through untouched.\n\n    The Code Mode tool now carries a `toModelOutput` that projects `calls` out of what the model sees and bounds the sandbox `logs` the same way a result is bounded. The durable call log \u2014 every connector call's args and result \u2014 stays on the persisted tool part for UIs and audit, but no longer rides into the model's context uncapped alongside the transformed `result`. The projection never throws: a BigInt or cyclic value is rendered rather than failing a completed run at model assembly.\n\n    The MCP servers apply the response budget to the text they emit, pretty-printing only while that still fits.\n\n    Fixes [#2009](https://github.com/cloudflare/agents/issues/2009), [#2143](https://github.com/cloudflare/agents/issues/2143) and [#2182](https://github.com/cloudflare/agents/issues/2182).\n"}
