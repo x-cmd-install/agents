@@ -7,7 +7,7 @@ about:
   latestVersion: "@cloudflare/voice-twilio@0.0.3"
   latestRelease: "@cloudflare/voice-twilio@0.0.3"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T23:43:35Z
+  collectedAt: 2026-09-11T06:15:58Z
 timeline:
   created: 2025-01-29
   lastCommit: 2026-09-10
@@ -15,13 +15,13 @@ timeline:
   lastRelease: 2026-08-27
   lastPrerelease: 
 popularity:
-  star: 5541
+  star: 5543
   watcher: 35
   fork: 707
   release: 383
   contributor: 146
-  pullRequest: 1450
-  issue: 719
+  pullRequest: 1451
+  issue: 721
 language:
   TypeScript: 13213084
   JavaScript: 61029
@@ -33,63 +33,63 @@ language:
 totalBytes: 13350784
 recent:
   last30d:
-    since: 2026-08-11
+    since: 2026-08-12
     release: 20
-    mergedPR: 54
-    openPR: 22
-    closedIssue: 18
-    openIssue: 27
+    mergedPR: 50
+    openPR: 20
+    closedIssue: 17
+    openIssue: 28
     commit: 63
   last60d:
-    since: 2026-07-12
+    since: 2026-07-13
     release: 41
-    mergedPR: 113
-    openPR: 40
-    closedIssue: 48
-    openIssue: 56
+    mergedPR: 107
+    openPR: 41
+    closedIssue: 47
+    openIssue: 58
     commit: 115
   last90d:
-    since: 2026-06-12
-    release: 70
-    mergedPR: 192
-    openPR: 44
-    closedIssue: 96
-    openIssue: 77
+    since: 2026-06-13
+    release: 63
+    mergedPR: 191
+    openPR: 45
+    closedIssue: 95
+    openIssue: 79
     commit: 211
   last180d:
-    since: 2026-03-14
+    since: 2026-03-15
     release: 100
     mergedPR: 531
-    openPR: 47
-    closedIssue: 298
-    openIssue: 109
+    openPR: 48
+    closedIssue: 297
+    openIssue: 111
     commit: 643
   last360d:
-    since: 2025-09-15
+    since: 2025-09-16
     release: 100
-    mergedPR: 891
-    openPR: 47
-    closedIssue: 472
-    openIssue: 119
+    mergedPR: 890
+    openPR: 48
+    closedIssue: 471
+    openIssue: 121
     commit: 1095
   last720d:
-    since: 2024-09-20
+    since: 2024-09-21
     release: 100
     mergedPR: 1182
-    openPR: 47
+    openPR: 48
     closedIssue: 599
-    openIssue: 120
+    openIssue: 122
     commit: 1544
 total:
   release: 383
   mergedPR: 1182
-  openPR: 47
+  openPR: 48
   closedIssue: 599
-  openIssue: 120
+  openIssue: 122
   commit: 1544
 ---
 path: /home/runner/.x-repo/github.com/cloudflare/agents
-collectedAt: 2026-09-10T23:43:46Z
+collectedAt: 2026-09-11T06:16:06Z
 loc:
   TypeScript:
     code: 331884
