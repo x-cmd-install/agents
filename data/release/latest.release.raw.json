@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/cloudflare/agents/releases/386962216",
-  "assets_url": "https://api.github.com/repos/cloudflare/agents/releases/386962216/assets",
-  "upload_url": "https://uploads.github.com/repos/cloudflare/agents/releases/386962216/assets{?name,label}",
-  "html_url": "https://github.com/cloudflare/agents/releases/tag/%40cloudflare/codemode%400.5.2",
-  "id": 386962216,
+  "url": "https://api.github.com/repos/cloudflare/agents/releases/391453537",
+  "assets_url": "https://api.github.com/repos/cloudflare/agents/releases/391453537/assets",
+  "upload_url": "https://uploads.github.com/repos/cloudflare/agents/releases/391453537/assets{?name,label}",
+  "html_url": "https://github.com/cloudflare/agents/releases/tag/%40cloudflare/worker-bundler%400.2.4",
+  "id": 391453537,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDONxkjBM4XEJMo",
-  "tag_name": "@cloudflare/codemode@0.5.2",
+  "node_id": "RE_kwDONxkjBM4XVRth",
+  "tag_name": "@cloudflare/worker-bundler@0.2.4",
   "target_commitish": "main",
-  "name": "@cloudflare/codemode@0.5.2",
+  "name": "@cloudflare/worker-bundler@0.2.4",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-09-11T10:42:11Z",
-  "updated_at": "2026-09-11T10:42:43Z",
-  "published_at": "2026-09-11T10:42:43Z",
+  "created_at": "2026-09-18T12:22:42Z",
+  "updated_at": "2026-09-18T12:22:52Z",
+  "published_at": "2026-09-18T12:22:52Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/cloudflare/agents/tarball/@cloudflare/codemode@0.5.2",
-  "zipball_url": "https://api.github.com/repos/cloudflare/agents/zipball/@cloudflare/codemode@0.5.2",
-  "body": "### Patch Changes\n\n-   [#2224](https://github.com/cloudflare/agents/pull/2224) [`dcca089`](https://github.com/cloudflare/agents/commit/dcca0896cc829e4a602a1feb47466ac79d1ca096) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Truncate structured results structurally instead of slicing their JSON.\n\n    `truncateResult` (the default `transformResult` in Think's execute tool and the browser tools) and the `codeMcpServer` / `openApiMcpServer` response path used to pretty-print an oversized object and cut it at a character count, leaving the model with half a JSON document. Oversized values are now shrunk in place, largest values first: strings are clipped with a `--- TRUNCATED --- <n> chars` suffix, arrays keep their leading items and end with a `--- TRUNCATED --- <n> more items` element, and an object only loses entries (largest first, named in a `\"--- TRUNCATED ---\"` entry) when its values cannot share the budget. The output is always valid JSON of the original shape and small values pass through untouched.\n\n    The Code Mode tool now carries a `toModelOutput` that projects `calls` out of what the model sees and bounds the sandbox `logs` the same way a result is bounded. The durable call log — every connector call's args and result — stays on the persisted tool part for UIs and audit, but no longer rides into the model's context uncapped alongside the transformed `result`. The projection never throws: a BigInt or cyclic value is rendered rather than failing a completed run at model assembly.\n\n    The MCP servers apply the response budget to the text they emit, pretty-printing only while that still fits.\n\n    Fixes [#2009](https://github.com/cloudflare/agents/issues/2009), [#2143](https://github.com/cloudflare/agents/issues/2143) and [#2182](https://github.com/cloudflare/agents/issues/2182).\n"
+  "tarball_url": "https://api.github.com/repos/cloudflare/agents/tarball/@cloudflare/worker-bundler@0.2.4",
+  "zipball_url": "https://api.github.com/repos/cloudflare/agents/zipball/@cloudflare/worker-bundler@0.2.4",
+  "body": "### Patch Changes\n\n-   [#2288](https://github.com/cloudflare/agents/pull/2288) [`9efee5f`](https://github.com/cloudflare/agents/commit/9efee5f0c23d6a217fe4ba5e73c078e64e9cd28c) Thanks [@ben-reitz](https://github.com/ben-reitz)! - Raise the `smol-toml` floor to ^1.7.2, picking up the fix for a\n    high-severity denial of service via malformed TOML (patched upstream\n    in 1.7.1).\n"
 }
