@@ -4,7 +4,7 @@
 
 Build and deploy AI Agents on Cloudflare 
 
-[![x-cmd/install — agents Code Quality Monitoring Repo Card](https://repo.x-cmd.io/agents.svg)](https://x-cmd.com/install/agents)
+[![x-cmd/install — agents Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/agents.svg)](https://x-cmd.com/install/agents)
 
 ## Install
 
@@ -37,22 +37,22 @@ Total: **437,556** lines of code across **2023** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 5,623 · **Forks**: 732 · **Open issues**: 752 · **Contributors**: 145
+- **Stars**: 5,647 · **Forks**: 734 · **Open issues**: 755 · **Contributors**: 145
 
 ## Totals (cumulative)
 
-- **Releases**: 398 · **Merged PRs**: 1198 · **Open PRs**: 55 · **Closed issues**: 607 · **Open issues**: 145 · **Commits**: 1560
+- **Releases**: 398 · **Merged PRs**: 1198 · **Open PRs**: 60 · **Closed issues**: 607 · **Open issues**: 148 · **Commits**: 1560
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 25 | 49 | 24 | 18 | 43 | 45 |
-| last60d | 2026-07-24 | 40 | 103 | 47 | 47 | 70 | 104 |
-| 90d | 2026-06-24 | 69 | 179 | 49 | 91 | 96 | 171 |
-| last180d | 2026-03-26 | 100 | 483 | 55 | 286 | 134 | 565 |
-| 360d | 2025-09-27 | 100 | 882 | 55 | 461 | 144 | 1067 |
-| last720d | 2024-10-02 | 100 | 1198 | 55 | 607 | 145 | 1560 |
+| 30d | 2026-08-24 | 25 | 48 | 29 | 18 | 45 | 45 |
+| last60d | 2026-07-25 | 40 | 103 | 52 | 47 | 71 | 104 |
+| 90d | 2026-06-25 | 69 | 173 | 54 | 90 | 99 | 171 |
+| last180d | 2026-03-27 | 100 | 474 | 59 | 285 | 136 | 565 |
+| 360d | 2025-09-28 | 100 | 882 | 60 | 461 | 147 | 1067 |
+| last720d | 2024-10-03 | 100 | 1198 | 60 | 607 | 148 | 1560 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for agents lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T06:23:27Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T06:31:00Z._

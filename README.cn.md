@@ -4,7 +4,7 @@
 
 Build and deploy AI Agents on Cloudflare 
 
-[![x-cmd/install — agents Code Quality Monitoring Repo Card](https://repo.x-cmd.io/agents.svg?lang=zh)](https://x-cmd.com/install/agents)
+[![x-cmd/install — agents Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/agents.svg?lang=zh)](https://x-cmd.com/install/agents)
 
 ## 安装
 
@@ -37,22 +37,22 @@ x install agents
 
 ## 流行度
 
-- **Star**: 5,623 · **Fork**: 732 · **开放 issue**: 752 · **贡献者**: 145
+- **Star**: 5,647 · **Fork**: 734 · **开放 issue**: 755 · **贡献者**: 145
 
 ## 累计统计
 
-- **发布数**: 398 · **已合并 PR**: 1198 · **开放 PR**: 55 · **已关闭 issue**: 607 · **开放 issue**: 145 · **提交数**: 1560
+- **发布数**: 398 · **已合并 PR**: 1198 · **开放 PR**: 60 · **已关闭 issue**: 607 · **开放 issue**: 148 · **提交数**: 1560
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 25 | 49 | 24 | 18 | 43 | 45 |
-| last60d | 2026-07-24 | 40 | 103 | 47 | 47 | 70 | 104 |
-| 90d | 2026-06-24 | 69 | 179 | 49 | 91 | 96 | 171 |
-| last180d | 2026-03-26 | 100 | 483 | 55 | 286 | 134 | 565 |
-| 360d | 2025-09-27 | 100 | 882 | 55 | 461 | 144 | 1067 |
-| last720d | 2024-10-02 | 100 | 1198 | 55 | 607 | 145 | 1560 |
+| 30d | 2026-08-24 | 25 | 48 | 29 | 18 | 45 | 45 |
+| last60d | 2026-07-25 | 40 | 103 | 52 | 47 | 71 | 104 |
+| 90d | 2026-06-25 | 69 | 173 | 54 | 90 | 99 | 171 |
+| last180d | 2026-03-27 | 100 | 474 | 59 | 285 | 136 | 565 |
+| 360d | 2025-09-28 | 100 | 882 | 60 | 461 | 147 | 1067 |
+| last720d | 2024-10-03 | 100 | 1198 | 60 | 607 | 148 | 1560 |
 
 ## 改进这些数据
 
@@ -63,4 +63,4 @@ agents 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T06:23:30Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T06:31:01Z._
