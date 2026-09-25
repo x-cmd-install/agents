@@ -14,11 +14,11 @@ x install agents
 
 ## Code insight
 
-Total: **443,160** lines of code across **2023** files in the top 5 languages.
+Total: **446,676** lines of code across **2033** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| TypeScript | 342,993 | 58,144 | 43,279 | 1506 |
+| TypeScript | 346,509 | 58,740 | 43,655 | 1516 |
 | Tsx | 65,887 | 3,111 | 5,336 | 185 |
 | Yaml | 20,246 | 68 | 1,446 | 7 |
 | Json | 5,701 | 0 | 5 | 255 |
@@ -37,22 +37,22 @@ Total: **443,160** lines of code across **2023** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 5,653 · **Forks**: 735 · **Open issues**: 756 · **Contributors**: 148
+- **Stars**: 5,658 · **Forks**: 736 · **Open issues**: 758 · **Contributors**: 150
 
 ## Totals (cumulative)
 
-- **Releases**: 398 · **Merged PRs**: 1219 · **Open PRs**: 71 · **Closed issues**: 629 · **Open issues**: 127 · **Commits**: 1581
+- **Releases**: 398 · **Merged PRs**: 1231 · **Open PRs**: 63 · **Closed issues**: 644 · **Open issues**: 114 · **Commits**: 1592
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-25 | 25 | 67 | 39 | 27 | 35 | 66 |
-| last60d | 2026-07-26 | 40 | 124 | 63 | 64 | 55 | 125 |
-| 90d | 2026-06-26 | 69 | 193 | 65 | 111 | 78 | 192 |
-| last180d | 2026-03-28 | 100 | 495 | 70 | 306 | 115 | 586 |
-| 360d | 2025-09-29 | 100 | 898 | 71 | 483 | 126 | 1088 |
-| last720d | 2024-10-04 | 100 | 1219 | 71 | 629 | 127 | 1581 |
+| 30d | 2026-08-26 | 25 | 79 | 35 | 36 | 26 | 77 |
+| last60d | 2026-07-27 | 40 | 135 | 55 | 76 | 45 | 136 |
+| 90d | 2026-06-27 | 62 | 201 | 57 | 125 | 65 | 203 |
+| last180d | 2026-03-29 | 100 | 505 | 62 | 318 | 102 | 597 |
+| 360d | 2025-09-30 | 100 | 909 | 63 | 496 | 113 | 1099 |
+| last720d | 2024-10-05 | 100 | 1231 | 63 | 644 | 114 | 1592 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for agents lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260924.yml` · 2026-09-24T05:52:58Z._
+_Snapshot: `data/card/260925.yml` · 2026-09-25T06:11:41Z._
