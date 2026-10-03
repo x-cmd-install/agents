@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/cloudflare/agents/releases/391453537",
-  "assets_url": "https://api.github.com/repos/cloudflare/agents/releases/391453537/assets",
-  "upload_url": "https://uploads.github.com/repos/cloudflare/agents/releases/391453537/assets{?name,label}",
-  "html_url": "https://github.com/cloudflare/agents/releases/tag/%40cloudflare/worker-bundler%400.2.4",
-  "id": 391453537,
+  "url": "https://api.github.com/repos/cloudflare/agents/releases/402036877",
+  "assets_url": "https://api.github.com/repos/cloudflare/agents/releases/402036877/assets",
+  "upload_url": "https://uploads.github.com/repos/cloudflare/agents/releases/402036877/assets{?name,label}",
+  "html_url": "https://github.com/cloudflare/agents/releases/tag/agents%400.26.0",
+  "id": 402036877,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,32 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDONxkjBM4XVRth",
-  "tag_name": "@cloudflare/worker-bundler@0.2.4",
+  "node_id": "RE_kwDONxkjBM4X9piN",
+  "tag_name": "agents@0.26.0",
   "target_commitish": "main",
-  "name": "@cloudflare/worker-bundler@0.2.4",
+  "name": "agents@0.26.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-09-18T12:22:42Z",
-  "updated_at": "2026-09-18T12:22:52Z",
-  "published_at": "2026-09-18T12:22:52Z",
+  "created_at": "2026-10-02T17:54:15Z",
+  "updated_at": "2026-10-02T17:54:17Z",
+  "published_at": "2026-10-02T17:54:17Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/cloudflare/agents/tarball/@cloudflare/worker-bundler@0.2.4",
-  "zipball_url": "https://api.github.com/repos/cloudflare/agents/zipball/@cloudflare/worker-bundler@0.2.4",
-  "body": "### Patch Changes\n\n-   [#2288](https://github.com/cloudflare/agents/pull/2288) [`9efee5f`](https://github.com/cloudflare/agents/commit/9efee5f0c23d6a217fe4ba5e73c078e64e9cd28c) Thanks [@ben-reitz](https://github.com/ben-reitz)! - Raise the `smol-toml` floor to ^1.7.2, picking up the fix for a\n    high-severity denial of service via malformed TOML (patched upstream\n    in 1.7.1).\n"
+  "tarball_url": "https://api.github.com/repos/cloudflare/agents/tarball/agents@0.26.0",
+  "zipball_url": "https://api.github.com/repos/cloudflare/agents/zipball/agents@0.26.0",
+  "body": "### Minor Changes\n\n-   [#2451](https://github.com/cloudflare/agents/pull/2451) [`df9c0ef`](https://github.com/cloudflare/agents/commit/df9c0ef6c4541c5552b5ce4d6ba292162dbd0908) Thanks [@aron-cf](https://github.com/aron-cf)! - Update pi-durable and pi-ai to `^1.0.0`. See [Pi harness](https://github.com/cloudflare/agents/blob/main/docs/agents/harnesses/pi.md) docs for details.\n",
+  "reactions": {
+    "url": "https://api.github.com/repos/cloudflare/agents/releases/402036877/reactions",
+    "total_count": 1,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 1,
+    "eyes": 0
+  }
 }
