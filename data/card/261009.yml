@@ -179,4 +179,3 @@ total:
 ---
 
 ---
-{"id":405791662,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDONxkjBM4YL-Ou","tag_name":"@cloudflare/worker-bundler@0.2.6","target_commitish":"main","name":"@cloudflare/worker-bundler@0.2.6","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-10-07T13:25:54Z","updated_at":"2026-10-07T13:26:02Z","published_at":"2026-10-07T13:26:02Z","assets":[],"body":"### Patch Changes\n\n-   [#2471](https://github.com/cloudflare/agents/pull/2471) [`26798f1`](https://github.com/cloudflare/agents/commit/26798f1b57c45521c55a4f6fcd260467654bab15) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Resolve package subpath imports such as `ajv/dist/compile/codegen` to the requested file when the package has a `main` field but no `exports` map. They previously resolved to the package's root entrypoint.\n"}
