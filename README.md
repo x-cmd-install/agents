@@ -32,27 +32,27 @@ Total: **522,118** lines of code across **2298** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `agents@0.28.0` (2026-10-09)
-- **Last commit**: 2026-10-12
+- **Latest**: `agents@0.28.1` (2026-10-13)
+- **Last commit**: 2026-10-13
 
 ## Popularity
 
-- **Stars**: 5,819 · **Forks**: 772 · **Open issues**: 799 · **Contributors**: 156
+- **Stars**: 5,827 · **Forks**: 775 · **Open issues**: 802 · **Contributors**: 156
 
 ## Totals (cumulative)
 
-- **Releases**: 409 · **Merged PRs**: 1357 · **Open PRs**: 41 · **Closed issues**: 686 · **Open issues**: 113 · **Commits**: 1721
+- **Releases**: 411 · **Merged PRs**: 1358 · **Open PRs**: 45 · **Closed issues**: 686 · **Open issues**: 116 · **Commits**: 1722
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 15 | 154 | 30 | 27 | 40 | 164 |
-| last60d | 2026-08-14 | 46 | 211 | 35 | 69 | 51 | 223 |
-| 90d | 2026-07-15 | 63 | 275 | 38 | 117 | 60 | 289 |
-| last180d | 2026-04-16 | 100 | 574 | 41 | 334 | 98 | 617 |
-| 360d | 2025-10-18 | 100 | 1019 | 41 | 523 | 111 | 1210 |
-| last720d | 2024-10-23 | 100 | 1357 | 41 | 686 | 113 | 1721 |
+| 30d | 2026-09-14 | 17 | 153 | 32 | 25 | 41 | 165 |
+| last60d | 2026-08-15 | 48 | 211 | 39 | 68 | 54 | 224 |
+| 90d | 2026-07-16 | 65 | 275 | 42 | 116 | 61 | 290 |
+| last180d | 2026-04-17 | 100 | 573 | 45 | 333 | 101 | 618 |
+| 360d | 2025-10-19 | 100 | 1020 | 45 | 522 | 114 | 1211 |
+| last720d | 2024-10-24 | 100 | 1358 | 45 | 686 | 116 | 1722 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for agents lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T08:13:50Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T06:03:33Z._
