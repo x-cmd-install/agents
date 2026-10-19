@@ -7,7 +7,7 @@ about:
   latestVersion: "agents@0.28.1"
   latestRelease: "agents@0.28.1"
   latestPrerelease: ""
-  collectedAt: 2026-10-18T05:38:16Z
+  collectedAt: 2026-10-19T05:48:48Z
 timeline:
   created: 2025-01-29
   lastCommit: 2026-10-16
@@ -15,13 +15,13 @@ timeline:
   lastRelease: 2026-10-13
   lastPrerelease: 
 popularity:
-  star: 5843
+  star: 5847
   watcher: 35
-  fork: 784
+  fork: 785
   release: 411
   contributor: 157
   pullRequest: 1700
-  issue: 811
+  issue: 810
 language:
   TypeScript: 16597641
   JavaScript: 62313
@@ -33,63 +33,63 @@ language:
 totalBytes: 16736625
 recent:
   last30d:
-    since: 2026-09-18
-    release: 17
+    since: 2026-09-19
+    release: 13
     mergedPR: 162
     openPR: 27
-    closedIssue: 16
-    openIssue: 47
-    commit: 183
+    closedIssue: 15
+    openIssue: 46
+    commit: 148
   last60d:
-    since: 2026-08-19
+    since: 2026-08-20
     release: 38
-    mergedPR: 222
+    mergedPR: 221
     openPR: 37
-    closedIssue: 63
-    openIssue: 62
-    commit: 242
+    closedIssue: 62
+    openIssue: 61
+    commit: 230
   last90d:
-    since: 2026-07-20
+    since: 2026-07-21
     release: 65
-    mergedPR: 289
+    mergedPR: 288
     openPR: 40
-    closedIssue: 114
+    closedIssue: 111
     openIssue: 70
-    commit: 308
+    commit: 290
   last180d:
-    since: 2026-04-21
+    since: 2026-04-22
     release: 100
-    mergedPR: 576
+    mergedPR: 575
     openPR: 43
-    closedIssue: 323
+    closedIssue: 317
     openIssue: 109
-    commit: 636
+    commit: 609
   last360d:
-    since: 2025-10-23
+    since: 2025-10-24
     release: 100
-    mergedPR: 1034
+    mergedPR: 1030
     openPR: 43
-    closedIssue: 519
+    closedIssue: 517
     openIssue: 124
-    commit: 1229
+    commit: 1204
   last720d:
-    since: 2024-10-28
+    since: 2024-10-29
     release: 100
     mergedPR: 1376
     openPR: 43
-    closedIssue: 685
+    closedIssue: 684
     openIssue: 126
     commit: 1740
 total:
   release: 411
   mergedPR: 1376
   openPR: 43
-  closedIssue: 685
+  closedIssue: 684
   openIssue: 126
   commit: 1740
 ---
 path: /home/runner/.x-repo/github.com/cloudflare/agents
-collectedAt: 2026-10-18T05:38:26Z
+collectedAt: 2026-10-19T05:49:03Z
 loc:
   TypeScript:
     code: 408750
