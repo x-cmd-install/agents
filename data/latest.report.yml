@@ -2,100 +2,100 @@ about:
   description: "Build and deploy AI Agents on Cloudflare "
   license: MIT
   homepage: https://developers.cloudflare.com/agents/
-  head: 65ddec8
+  head: fc7f59f
   archived: false
-  latestVersion: "agents@0.28.1"
-  latestRelease: "agents@0.28.1"
+  latestVersion: "@cloudflare/think@0.21.0"
+  latestRelease: "@cloudflare/think@0.21.0"
   latestPrerelease: ""
-  collectedAt: 2026-10-20T05:58:46Z
+  collectedAt: 2026-10-21T05:51:45Z
 timeline:
   created: 2025-01-29
-  lastCommit: 2026-10-19
-  lastVersion: 2026-10-13
-  lastRelease: 2026-10-13
+  lastCommit: 2026-10-20
+  lastVersion: 2026-10-20
+  lastRelease: 2026-10-20
   lastPrerelease: 
 popularity:
-  star: 5854
+  star: 5857
   watcher: 35
-  fork: 787
-  release: 411
-  contributor: 158
-  pullRequest: 1705
-  issue: 811
+  fork: 788
+  release: 416
+  contributor: 160
+  pullRequest: 1714
+  issue: 822
 language:
-  TypeScript: 16591884
+  TypeScript: 16667481
   JavaScript: 62313
   CSS: 41550
   Shell: 11394
   Astro: 10623
   HTML: 7527
   Dockerfile: 5577
-totalBytes: 16730868
+totalBytes: 16806465
 recent:
   last30d:
-    since: 2026-09-20
-    release: 13
-    mergedPR: 165
-    openPR: 29
-    closedIssue: 17
-    openIssue: 45
-    commit: 151
+    since: 2026-09-21
+    release: 18
+    mergedPR: 171
+    openPR: 31
+    closedIssue: 19
+    openIssue: 52
+    commit: 157
   last60d:
-    since: 2026-08-21
-    release: 38
-    mergedPR: 222
-    openPR: 39
-    closedIssue: 63
-    openIssue: 60
-    commit: 233
+    since: 2026-08-22
+    release: 43
+    mergedPR: 228
+    openPR: 41
+    closedIssue: 67
+    openIssue: 67
+    commit: 239
   last90d:
-    since: 2026-07-22
-    release: 65
-    mergedPR: 290
-    openPR: 42
-    closedIssue: 113
-    openIssue: 68
-    commit: 293
+    since: 2026-07-23
+    release: 63
+    mergedPR: 292
+    openPR: 44
+    closedIssue: 115
+    openIssue: 74
+    commit: 299
   last180d:
-    since: 2026-04-23
+    since: 2026-04-24
     release: 100
-    mergedPR: 569
-    openPR: 45
-    closedIssue: 312
-    openIssue: 108
-    commit: 612
+    mergedPR: 574
+    openPR: 47
+    closedIssue: 311
+    openIssue: 114
+    commit: 618
   last360d:
-    since: 2025-10-25
+    since: 2025-10-26
     release: 100
-    mergedPR: 1028
-    openPR: 45
-    closedIssue: 519
-    openIssue: 123
-    commit: 1207
+    mergedPR: 1034
+    openPR: 47
+    closedIssue: 523
+    openIssue: 130
+    commit: 1213
   last720d:
-    since: 2024-10-30
+    since: 2024-10-31
     release: 100
-    mergedPR: 1379
-    openPR: 45
-    closedIssue: 686
-    openIssue: 125
-    commit: 1743
+    mergedPR: 1385
+    openPR: 47
+    closedIssue: 690
+    openIssue: 132
+    commit: 1749
 total:
-  release: 411
-  mergedPR: 1379
-  openPR: 45
-  closedIssue: 686
-  openIssue: 125
-  commit: 1743
+  release: 416
+  mergedPR: 1385
+  openPR: 47
+  closedIssue: 690
+  openIssue: 132
+  commit: 1749
 ---
 path: /home/runner/.x-repo/github.com/cloudflare/agents
-collectedAt: 2026-10-20T05:58:56Z
+collectedAt: 2026-10-21T05:51:56Z
 loc:
   TypeScript:
-    code: 408627
-    comments: 69539
-    blanks: 48879
-    files: 1776
+    code: 410275
+    comments: 69851
+    blanks: 49005
+    files: 1779
   Tsx:
     code: 72225
     comments: 3485
@@ -163,20 +163,20 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 52804
-    blanks: 19005
-    files: 294
+    comments: 53002
+    blanks: 19082
+    files: 295
   Text:
     code: 0
     comments: 716
     blanks: 156
     files: 14
 total:
-  code: 533450
-  comments: 128933
-  blanks: 77971
-  files: 2725
+  code: 535098
+  comments: 129443
+  blanks: 78174
+  files: 2729
 ---
 
 ---
-{"id":411705668,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDONxkjBM4YiiFE","tag_name":"agents@0.28.1","target_commitish":"main","name":"agents@0.28.1","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-10-13T13:28:25Z","updated_at":"2026-10-13T13:28:30Z","published_at":"2026-10-13T13:28:30Z","assets":[],"body":"### Patch Changes\n\n-   [#2571](https://github.com/cloudflare/agents/pull/2571) [`1bd2bc5`](https://github.com/cloudflare/agents/commit/1bd2bc5d5e90e963c4d7db52cb9ef1a95153b99e) Thanks [@mattzcarey](https://github.com/mattzcarey)! - `createAI` (`agents/models/ai-sdk`, `agents/models/pi-ai`) adds the `zdr` gateway option, and `vendorKey: \"request\"` for AI SDK models routed with your own vendor key. See [docs/agents/models.md](https://github.com/cloudflare/agents/blob/main/docs/agents/models.md#unified-billing-and-byok).\n\n-   [#2572](https://github.com/cloudflare/agents/pull/2572) [`b7c6ab9`](https://github.com/cloudflare/agents/commit/b7c6ab94dbe7b998ae9d85cb528eb1c39f02e00a) Thanks [@mattzcarey](https://github.com/mattzcarey)! - `createAI` (`agents/models/ai-sdk`, `agents/models/pi-ai`) takes AI Gateway dynamic routes as `ai(\"dynamic/<route>\")`. See [docs/agents/models.md](https://github.com/cloudflare/agents/blob/main/docs/agents/models.md#dynamic-routes).\n\n-   [#2573](https://github.com/cloudflare/agents/pull/2573) [`80719a5`](https://github.com/cloudflare/agents/commit/80719a5943a4a5ee63e11acd719091a70d388119) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Update `@modelcontextprotocol/client` and `@modelcontextprotocol/server` to 2.2.0 and `@modelcontextprotocol/sdk` to 1.31.0. See [Model Context Protocol](https://developers.cloudflare.com/agents/model-context-protocol/).\n\n-   [#2574](https://github.com/cloudflare/agents/pull/2574) [`131af4b`](https://github.com/cloudflare/agents/commit/131af4b0d9d54b465051f3209b9a41a1d6ddc1c1) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Update `@modelcontextprotocol/client` and `@modelcontextprotocol/server` to 2.3.1 and `@modelcontextprotocol/sdk` to 1.32.1. The MCP client transports now follow redirects only within the same origin. See [Model Context Protocol](https://developers.cloudflare.com/agents/model-context-protocol/).\n\n-   [#2574](https://github.com/cloudflare/agents/pull/2574) [`131af4b`](https://github.com/cloudflare/agents/commit/131af4b0d9d54b465051f3209b9a41a1d6ddc1c1) Thanks [@mattzcarey](https://github.com/mattzcarey)! - `McpAgent` now answers requests for a session ended with `DELETE` with 404 straight away, instead of serving it until deferred teardown runs, and `createMcpHandler` rejects a Legacy request whose factory returns an instance still serving another request without closing that instance. See [Transport](https://developers.cloudflare.com/agents/model-context-protocol/transport/).\n\n-   [#2568](https://github.com/cloudflare/agents/pull/2568) [`46570f5`](https://github.com/cloudflare/agents/commit/46570f5309626d65f7111c9bda84c2de5412db16) Thanks [@mattzcarey](https://github.com/mattzcarey)! - `OpenCodeHarness`: `session.events()` now returns a stream with a snapshot of the session and then its events, translated into the same kinds `PiHarness` reports: `run_start`/`run_end`, `operation_start`/`operation_end` (with the result `wait()` returns), `message_start`/`message_end`, `text_delta`, `reasoning_delta`, `tool_start`/`tool_end`, permissions and compaction. It replaces the async iterable of OpenCode's raw events; those are still available, durable and resumable, from `session.log()`. The OpenCode example now gives the model Workspace tools from `@cloudflare/computer` in place of OpenCode's local file and shell tools.\n"}
+{"id":418550595,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDONxkjBM4Y8pND","tag_name":"@cloudflare/think@0.21.0","target_commitish":"main","name":"@cloudflare/think@0.21.0","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-10-20T15:19:57Z","updated_at":"2026-10-20T15:20:12Z","published_at":"2026-10-20T15:20:12Z","assets":[],"body":"### Minor Changes\n\n-   [#2561](https://github.com/cloudflare/agents/pull/2561) [`998ae40`](https://github.com/cloudflare/agents/commit/998ae40e999b5d5acc5bd0f64f538732457fc613) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Think's workspace tools are now `@cloudflare/computer`'s `createAITools`, and `exec` offers every backend the Workspace has; `createWorkspaceTools`, `workspaceBash`, and `@cloudflare/think/tools/workspace` are removed. See [Built-in workspace tools](https://github.com/cloudflare/agents/blob/main/docs/think/tools.md#built-in-workspace-tools).\n\n-   [#2560](https://github.com/cloudflare/agents/pull/2560) [`8c720d3`](https://github.com/cloudflare/agents/commit/8c720d3b0d7703741bf0f6e47b571d3e21c50742) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Think's `workspace` is now a `Workspace` from `@cloudflare/computer`, a new peer dependency. See [Upgrading to a Computer workspace](https://github.com/cloudflare/agents/blob/main/docs/think/index.md#upgrading-to-a-computer-workspace).\n\n-   [#2562](https://github.com/cloudflare/agents/pull/2562) [`db4303c`](https://github.com/cloudflare/agents/commit/db4303c924c8fe33f25afbc42c70f72d82f6dc28) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Think no longer depends on `@cloudflare/shell`, and the execute tool's `state` option is removed. See [Code Execution Tool](https://github.com/cloudflare/agents/blob/main/docs/think/tools.md#code-execution-tool).\n\n-   [#2565](https://github.com/cloudflare/agents/pull/2565) [`f56cd20`](https://github.com/cloudflare/agents/commit/f56cd20dd58dc88f4b76a601bcd94b9eabcd6661) Thanks [@mattzcarey](https://github.com/mattzcarey)! - `createExecuteTool` and `createExecuteRuntime` are deprecated in favour of `exec` with a `ws:tools` module. See [Calling the agent's tools from code](https://github.com/cloudflare/agents/blob/main/docs/think/tools.md#calling-the-agents-tools-from-code).\n\n### Patch Changes\n\n-   [#2615](https://github.com/cloudflare/agents/pull/2615) [`05843e4`](https://github.com/cloudflare/agents/commit/05843e428be0d8b43a5bf1923d8e40adce6f213d) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Chat recovery now seals a turn after `chatRecovery.maxInterruptedAttempts` interrupted attempts (default 5), so a turn that exceeds the Durable Object memory limit on every run no longer retries forever; `maxOomRetries` is deprecated. See [Stream Recovery](https://github.com/cloudflare/agents/blob/main/docs/agents/chat-agents.md#stream-recovery).\n\n-   [#2593](https://github.com/cloudflare/agents/pull/2593) [`b905483`](https://github.com/cloudflare/agents/commit/b905483d9cfd37e20f323d24bbc0344b289b4ea6) Thanks [@ben-reitz](https://github.com/ben-reitz)! - Reuse one `Intl.DateTimeFormat` per timezone when computing wall-clock scheduled task occurrences, cutting the CPU cost of each occurrence substantially. See [#2583](https://github.com/cloudflare/agents/issues/2583); thanks @Bowiemb.\n","mentions_count":1}
