@@ -2,108 +2,108 @@ about:
   description: "Build and deploy AI Agents on Cloudflare "
   license: MIT
   homepage: https://developers.cloudflare.com/agents/
-  head: 9c79ba1
+  head: 321814b
   archived: false
-  latestVersion: "agents@0.30.0"
-  latestRelease: "agents@0.30.0"
+  latestVersion: "agents@0.30.1"
+  latestRelease: "agents@0.30.1"
   latestPrerelease: ""
-  collectedAt: 2026-10-23T06:01:01Z
+  collectedAt: 2026-10-24T05:43:56Z
 timeline:
   created: 2025-01-29
-  lastCommit: 2026-10-22
-  lastVersion: 2026-10-22
-  lastRelease: 2026-10-22
+  lastCommit: 2026-10-23
+  lastVersion: 2026-10-23
+  lastRelease: 2026-10-23
   lastPrerelease: 
 popularity:
-  star: 5873
+  star: 5880
   watcher: 35
-  fork: 796
-  release: 417
+  fork: 800
+  release: 418
   contributor: 160
-  pullRequest: 1749
-  issue: 833
+  pullRequest: 1757
+  issue: 840
 language:
-  TypeScript: 16723284
+  TypeScript: 16717734
   JavaScript: 62313
   CSS: 41550
   Shell: 11394
-  Astro: 10623
+  Astro: 10893
   HTML: 7527
   Dockerfile: 5577
-totalBytes: 16862268
+totalBytes: 16856988
 recent:
   last30d:
-    since: 2026-09-23
-    release: 19
-    mergedPR: 168
-    openPR: 41
+    since: 2026-09-24
+    release: 20
+    mergedPR: 160
+    openPR: 42
     closedIssue: 19
-    openIssue: 60
-    commit: 176
+    openIssue: 65
+    commit: 183
   last60d:
-    since: 2026-08-24
-    release: 44
-    mergedPR: 246
+    since: 2026-08-25
+    release: 45
+    mergedPR: 251
     openPR: 51
     closedIssue: 68
-    openIssue: 74
-    commit: 258
+    openIssue: 79
+    commit: 265
   last90d:
-    since: 2026-07-25
-    release: 59
-    mergedPR: 309
-    openPR: 54
+    since: 2026-07-26
+    release: 60
+    mergedPR: 316
+    openPR: 55
     closedIssue: 115
-    openIssue: 82
-    commit: 318
+    openIssue: 89
+    commit: 325
   last180d:
-    since: 2026-04-26
+    since: 2026-04-27
     release: 100
-    mergedPR: 588
-    openPR: 57
-    closedIssue: 313
-    openIssue: 120
-    commit: 637
+    mergedPR: 595
+    openPR: 58
+    closedIssue: 307
+    openIssue: 127
+    commit: 644
   last360d:
-    since: 2025-10-28
+    since: 2025-10-29
     release: 100
-    mergedPR: 1046
-    openPR: 57
-    closedIssue: 518
-    openIssue: 138
-    commit: 1232
+    mergedPR: 1051
+    openPR: 58
+    closedIssue: 517
+    openIssue: 145
+    commit: 1239
   last720d:
-    since: 2024-11-02
+    since: 2024-11-03
     release: 100
-    mergedPR: 1404
-    openPR: 57
+    mergedPR: 1411
+    openPR: 58
     closedIssue: 693
-    openIssue: 140
-    commit: 1768
+    openIssue: 147
+    commit: 1775
 total:
-  release: 417
-  mergedPR: 1404
-  openPR: 57
+  release: 418
+  mergedPR: 1411
+  openPR: 58
   closedIssue: 693
-  openIssue: 140
-  commit: 1768
+  openIssue: 147
+  commit: 1775
 ---
 path: /home/runner/.x-repo/github.com/cloudflare/agents
-collectedAt: 2026-10-23T06:01:13Z
+collectedAt: 2026-10-24T05:44:07Z
 loc:
   TypeScript:
     code: 411494
-    comments: 70207
+    comments: 70173
     blanks: 49161
     files: 1784
   Tsx:
-    code: 72225
-    comments: 3485
-    blanks: 5795
-    files: 196
+    code: 72088
+    comments: 3483
+    blanks: 5793
+    files: 195
   Yaml:
-    code: 25430
-    comments: 65
+    code: 25431
+    comments: 66
     blanks: 1701
     files: 7
   Json:
@@ -163,8 +163,8 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 52905
-    blanks: 19017
+    comments: 52910
+    blanks: 19025
     files: 295
   Text:
     code: 0
@@ -172,11 +172,11 @@ loc:
     blanks: 156
     files: 14
 total:
-  code: 536112
-  comments: 129686
-  blanks: 78235
-  files: 2734
+  code: 535976
+  comments: 129656
+  blanks: 78241
+  files: 2733
 ---
 
 ---
-{"id":420639423,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDONxkjBM4ZEnK_","tag_name":"agents@0.30.0","target_commitish":"main","name":"agents@0.30.0","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-10-22T11:29:37Z","updated_at":"2026-10-22T11:29:39Z","published_at":"2026-10-22T11:29:39Z","assets":[],"body":"This release adds support for [Pi 1.4](https://github.com/earendil-works/pi/blob/v1.4.0/packages/durable/CHANGELOG.md#140---2026-10-21) and makes `PiHarness` recover more reliably from evictions, crashes and storage errors.\n\n### Highlights\n\n-   **Pi 1.4 support:** `agents/harness/pi` now runs on Pi 1.4.\n-   **Hibernation while Pi's tasks sleep:** `PiHarness` passes Pi's `onWake` through your harness factory, so a Durable Object sleeps until Pi's next task is due instead of staying in memory.\n-   **One wake job per object:** `PiHarness` wakes from Pi's `wake()`, so a task stopped by Pi's restart limit no longer keeps the object awake.\n-   **Parked tasks:** tasks stopped by Pi's restart limit show as `parked` in `pending()`, and `retry()` runs them again.\n-   **Recovery:** Pi reopens after a storage error instead of failing every call until the object restarts, and the wake job survives failed steps with backoff.\n-   **Fixes:** Lifecycle no longer keeps evicted Durable Objects in memory, and it arms a fallback alarm when startup fails. pi-ai now reports cut-off model streams with wording Pi treats as transient, so Pi retries them.\n\n### Upgrading\n\n1.  **Update Pi to `~1.4.0`** (`@earendil-works/pi-durable`, `pi-ai`, `pi-agent-core`) and install `@earendil-works/chord` alongside them. Pi 1.4 migrates session storage to a schema Pi 1.3 cannot open, so a deployment cannot roll back past this release.\n\n2.  **Check [pi-durable's 1.4.0 changelog](https://github.com/earendil-works/pi/blob/v1.4.0/packages/durable/CHANGELOG.md#140---2026-10-21)** for its breaking changes, such as the removal of `TaskRuntime.sleep()`, the new `sleeping` task status, and the restart limit that parks a crash-looping task after 5 restarts.\n\n3.  **Pass `onWake` to `Harness.open`**, as in the diff below. Without it, the harness still works but logs a warning, and the object stays in memory while Pi's tasks sleep.\n\n4.  **If you create Pi's registry at module scope, move it into your class**, as a field or in the factory. Our tool examples showed module scope before this release. Pi keeps every `Harness` subscribed to its registry until it closes, and an evicted object never closes it, so a module-level registry keeps every evicted object's harness in memory.\n\n    ```diff\n    - const registry = createRegistry();\n      export class Assistant extends Agent<Env> {\n    +   registry = createRegistry();\n        harness = new PiHarness({\n          harness: ({ storage, context, onWake }) =>\n    -       Harness.open(storage, { models, registry }, context)\n    +       Harness.open(storage, { models, registry: this.registry, onWake }, context)\n        });\n      }\n    ```\n\n5.  **Keep the harness factory safe to run more than once.** It now runs again when Pi reopens after a storage error.\n\n6.  **Handle the new `parked` status** if you switch on `PiPendingOperation.status`.\n\nExisting objects need no migration step. Wake jobs left by earlier releases are handed over to the new wake job on first start.\n\n### Minor Changes\n\n-   [#2617](https://github.com/cloudflare/agents/pull/2617) [`cfe9d0f`](https://github.com/cloudflare/agents/commit/cfe9d0f3d5de5e07fc77e5edc320d423e6634295) Thanks [@ben-reitz](https://github.com/ben-reitz)! - Support Pi 1.4: the Pi peer range is now `~1.4.0`. Pi 1.4 migrates SQLite session storage to a schema that Pi 1.3 cannot open, so a deployment cannot roll back past this release. See [Pi harness](https://developers.cloudflare.com/agents/harnesses/pi/).\n\n-   [#2619](https://github.com/cloudflare/agents/pull/2619) [`4b535dc`](https://github.com/cloudflare/agents/commit/4b535dc9f30f85a295261e545bc18cf58dfa012f) Thanks [@ben-reitz](https://github.com/ben-reitz)! - `PiHarness` hands its factory an `onWake` to pass to `Harness.open`, so the Durable Object can hibernate while Pi's tasks sleep. Add it to your factory: `harness: ({ storage, context, onWake }) => Harness.open(storage, { ...options, onWake }, context)`. Without it the harness still works and logs a warning. See [Pi harness](https://developers.cloudflare.com/agents/harnesses/pi/).\n\n-   [#2624](https://github.com/cloudflare/agents/pull/2624) [`3954859`](https://github.com/cloudflare/agents/commit/3954859b3d2b56bcf8e0425bda39608de7744dfe) Thanks [@ben-reitz](https://github.com/ben-reitz)! - `PiHarness` shows operations stopped by Pi's restart limit as `parked` in `pending()`, and `retry()` runs them again. See [Pi harness](https://developers.cloudflare.com/agents/harnesses/pi/#how-recovery-works).\n\n### Patch Changes\n\n-   [#2644](https://github.com/cloudflare/agents/pull/2644) [`f404547`](https://github.com/cloudflare/agents/commit/f404547453d412d04aafedff7d624d384c6e70d8) Thanks [@ben-reitz](https://github.com/ben-reitz)! - Lifecycle arms a fallback alarm while its job queue holds jobs, before startup runs in an alarm and after a startup that queued jobs throws, so a failed startup cannot leave queued jobs without a wake. See [Lifecycle](https://github.com/cloudflare/agents/blob/main/docs/agents/lifecycle.md).\n\n-   [#2653](https://github.com/cloudflare/agents/pull/2653) [`fc4cd24`](https://github.com/cloudflare/agents/commit/fc4cd249b962f481fa8d6c1692e9bf10db2878cf) Thanks [@ben-reitz](https://github.com/ben-reitz)! - Stop Lifecycle startup keeping an evicted Durable Object in memory when a capability's startup leaves a promise pending, as `PiHarness` does when it opens Pi. See [Pi harness](https://github.com/cloudflare/agents/blob/main/docs/agents/harnesses/pi.md#create-the-harness).\n\n-   [#2643](https://github.com/cloudflare/agents/pull/2643) [`e117121`](https://github.com/cloudflare/agents/commit/e117121fff687a0320b96cb22da63cb089855a04) Thanks [@ben-reitz](https://github.com/ben-reitz)! - `agents/models/pi-ai` reports a cut-off or idle model stream with wording pi's retry policy treats as transient, so pi retries the turn instead of failing it. See [Models with pi-ai](https://github.com/cloudflare/agents/blob/main/docs/agents/models-pi-ai.md).\n\n-   [#2617](https://github.com/cloudflare/agents/pull/2617) [`cfe9d0f`](https://github.com/cloudflare/agents/commit/cfe9d0f3d5de5e07fc77e5edc320d423e6634295) Thanks [@ben-reitz](https://github.com/ben-reitz)! - `agents/harness/pi` now uses chord's own context helpers, so install `@earendil-works/chord` alongside pi-durable and pi-ai. See [Pi harness](https://developers.cloudflare.com/agents/harnesses/pi/).\n\n-   [#2648](https://github.com/cloudflare/agents/pull/2648) [`000fcaf`](https://github.com/cloudflare/agents/commit/000fcaf67670cfedfc0923726f7400cf2524ca76) Thanks [@ben-reitz](https://github.com/ben-reitz)! - `PiHarness` opens pi again after a storage error closes it, instead of failing every call until the object restarts. See [How recovery works](https://developers.cloudflare.com/agents/harnesses/pi/#how-recovery-works).\n\n-   [#2618](https://github.com/cloudflare/agents/pull/2618) [`3e91ded`](https://github.com/cloudflare/agents/commit/3e91ded5295aef63bd40e34cb5f3396d0be11992) Thanks [@ben-reitz](https://github.com/ben-reitz)! - `PiHarness` wakes from Pi's `wake()` with one job per object, so a task parked by Pi's restart limit no longer keeps the Durable Object awake. See [Pi harness](https://developers.cloudflare.com/agents/harnesses/pi/).\n\n-   [#2649](https://github.com/cloudflare/agents/pull/2649) [`91a8f61`](https://github.com/cloudflare/agents/commit/91a8f611ac4cb205e6a8efd3481af851022a8958) Thanks [@ben-reitz](https://github.com/ben-reitz)! - `PiHarness` keeps its wake job when a step fails, retrying with a backoff up to 10 minutes, and counts a memory-limit reset during the job's wait against the alarm memory-limit breaker. See [How recovery works](https://developers.cloudflare.com/agents/harnesses/pi/#how-recovery-works).\n"}
+{"id":422013472,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDONxkjBM4ZJ2og","tag_name":"agents@0.30.1","target_commitish":"main","name":"agents@0.30.1","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-10-23T15:35:58Z","updated_at":"2026-10-23T15:36:02Z","published_at":"2026-10-23T15:36:02Z","assets":[],"body":"### Patch Changes\n\n-   [#2684](https://github.com/cloudflare/agents/pull/2684) [`9c79ba1`](https://github.com/cloudflare/agents/commit/9c79ba12778cbb53b6c50db79282d780466c9897) Thanks [@ben-reitz](https://github.com/ben-reitz)! - Fix `PiHarness` with `onWake` not resuming a sleeping Pi task, such as a compaction retry, while another task is running ([#2683](https://github.com/cloudflare/agents/issues/2683)). See [How recovery works](https://developers.cloudflare.com/agents/harnesses/pi/#how-recovery-works).\n"}
