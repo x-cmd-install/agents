@@ -2,130 +2,130 @@ about:
   description: "Build and deploy AI Agents on Cloudflare "
   license: MIT
   homepage: https://developers.cloudflare.com/agents/
-  head: 8586744
+  head: 743cfa5
   archived: false
-  latestVersion: "agents@0.30.1"
-  latestRelease: "agents@0.30.1"
+  latestVersion: "@cloudflare/think@0.22.0"
+  latestRelease: "@cloudflare/think@0.22.0"
   latestPrerelease: ""
-  collectedAt: 2026-10-27T06:20:50Z
+  collectedAt: 2026-10-28T06:56:27Z
 timeline:
   created: 2025-01-29
-  lastCommit: 2026-10-26
-  lastVersion: 2026-10-23
-  lastRelease: 2026-10-23
+  lastCommit: 2026-10-28
+  lastVersion: 2026-10-27
+  lastRelease: 2026-10-27
   lastPrerelease: 
 popularity:
-  star: 5895
+  star: 5905
   watcher: 34
-  fork: 812
-  release: 418
-  contributor: 160
-  pullRequest: 1767
-  issue: 848
+  fork: 814
+  release: 420
+  contributor: 161
+  pullRequest: 1784
+  issue: 861
 language:
-  TypeScript: 16758639
+  TypeScript: 16836818
   JavaScript: 62313
   CSS: 41550
-  Shell: 11394
+  Shell: 11401
   Astro: 10893
   HTML: 7527
   Dockerfile: 5576
-totalBytes: 16897892
+totalBytes: 16976078
 recent:
   last30d:
-    since: 2026-09-27
-    release: 20
-    mergedPR: 159
-    openPR: 33
-    closedIssue: 21
-    openIssue: 67
-    commit: 139
+    since: 2026-09-28
+    release: 22
+    mergedPR: 165
+    openPR: 20
+    closedIssue: 22
+    openIssue: 78
+    commit: 158
   last60d:
-    since: 2026-08-28
-    release: 35
-    mergedPR: 256
-    openPR: 43
-    closedIssue: 66
-    openIssue: 83
-    commit: 264
-  last90d:
-    since: 2026-07-29
-    release: 55
-    mergedPR: 324
-    openPR: 45
-    closedIssue: 115
+    since: 2026-08-29
+    release: 37
+    mergedPR: 275
+    openPR: 29
+    closedIssue: 68
     openIssue: 92
-    commit: 328
+    commit: 283
+  last90d:
+    since: 2026-07-30
+    release: 57
+    mergedPR: 341
+    openPR: 31
+    closedIssue: 117
+    openIssue: 102
+    commit: 347
   last180d:
-    since: 2026-04-30
+    since: 2026-05-01
     release: 100
-    mergedPR: 593
-    openPR: 50
+    mergedPR: 608
+    openPR: 36
     closedIssue: 299
-    openIssue: 130
-    commit: 621
+    openIssue: 138
+    commit: 640
   last360d:
-    since: 2025-11-01
+    since: 2025-11-02
     release: 100
-    mergedPR: 1058
-    openPR: 50
-    closedIssue: 520
-    openIssue: 149
-    commit: 1231
+    mergedPR: 1077
+    openPR: 36
+    closedIssue: 522
+    openIssue: 159
+    commit: 1250
   last720d:
-    since: 2024-11-06
+    since: 2024-11-07
     release: 100
-    mergedPR: 1425
-    openPR: 50
-    closedIssue: 697
-    openIssue: 151
-    commit: 1789
+    mergedPR: 1444
+    openPR: 36
+    closedIssue: 700
+    openIssue: 161
+    commit: 1808
 total:
-  release: 418
-  mergedPR: 1425
-  openPR: 50
-  closedIssue: 697
-  openIssue: 151
-  commit: 1789
+  release: 420
+  mergedPR: 1444
+  openPR: 36
+  closedIssue: 700
+  openIssue: 161
+  commit: 1808
 ---
 path: /home/runner/.x-repo/github.com/cloudflare/agents
-collectedAt: 2026-10-27T06:21:05Z
+collectedAt: 2026-10-28T06:56:42Z
 loc:
   TypeScript:
-    code: 412235
-    comments: 70528
-    blanks: 49208
-    files: 1788
+    code: 415369
+    comments: 71016
+    blanks: 49457
+    files: 1811
   Tsx:
-    code: 72086
-    comments: 3501
-    blanks: 5793
-    files: 194
+    code: 73955
+    comments: 3593
+    blanks: 5884
+    files: 199
   Yaml:
-    code: 25880
-    comments: 66
-    blanks: 1750
+    code: 25822
+    comments: 67
+    blanks: 1758
     files: 7
   Json:
-    code: 6654
+    code: 6740
     comments: 0
     blanks: 5
-    files: 254
+    files: 256
   Css:
-    code: 4621
-    comments: 572
-    blanks: 739
-    files: 73
+    code: 4693
+    comments: 582
+    blanks: 746
+    files: 74
   JavaScript:
     code: 1706
     comments: 332
     blanks: 157
     files: 13
   Html:
-    code: 1096
+    code: 1111
     comments: 4
     blanks: 0
-    files: 76
+    files: 77
   Rust:
     code: 670
     comments: 7
@@ -136,16 +136,16 @@ loc:
     comments: 36
     blanks: 35
     files: 6
+  Dockerfile:
+    code: 58
+    comments: 85
+    blanks: 16
+    files: 3
   Svg:
     code: 47
     comments: 8
     blanks: 4
     files: 7
-  Dockerfile:
-    code: 39
-    comments: 77
-    blanks: 11
-    files: 2
   Toml:
     code: 32
     comments: 0
@@ -163,20 +163,20 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 52774
-    blanks: 18992
-    files: 295
+    comments: 52993
+    blanks: 19041
+    files: 296
   Text:
     code: 0
-    comments: 716
-    blanks: 156
-    files: 14
+    comments: 733
+    blanks: 160
+    files: 15
 total:
-  code: 536979
-  comments: 129759
-  blanks: 78229
-  files: 2735
+  code: 542009
+  comments: 130581
+  blanks: 78623
+  files: 2770
 ---
 
 ---
-{"id":422013472,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDONxkjBM4ZJ2og","tag_name":"agents@0.30.1","target_commitish":"main","name":"agents@0.30.1","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-10-23T15:35:58Z","updated_at":"2026-10-23T15:36:02Z","published_at":"2026-10-23T15:36:02Z","assets":[],"body":"### Patch Changes\n\n-   [#2684](https://github.com/cloudflare/agents/pull/2684) [`9c79ba1`](https://github.com/cloudflare/agents/commit/9c79ba12778cbb53b6c50db79282d780466c9897) Thanks [@ben-reitz](https://github.com/ben-reitz)! - Fix `PiHarness` with `onWake` not resuming a sleeping Pi task, such as a compaction retry, while another task is running ([#2683](https://github.com/cloudflare/agents/issues/2683)). See [How recovery works](https://developers.cloudflare.com/agents/harnesses/pi/#how-recovery-works).\n"}
+{"id":425499416,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDONxkjBM4ZXJsY","tag_name":"@cloudflare/think@0.22.0","target_commitish":"main","name":"@cloudflare/think@0.22.0","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-10-27T13:29:09Z","updated_at":"2026-10-27T13:29:15Z","published_at":"2026-10-27T13:29:15Z","assets":[],"body":"### Minor Changes\n\n-   [#2632](https://github.com/cloudflare/agents/pull/2632) [`361046e`](https://github.com/cloudflare/agents/commit/361046e4f5f528540783d9078c438cb3cbe2d470) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Remove `lazyWorkspace`, exported by mistake in 0.21.0. Use `getWorkspace(() => stub)` from `@cloudflare/computer` instead. Think's `@cloudflare/computer` peer is now `^0.8.0`, so upgrade Computer to 0.8 alongside Think. See [Multi-session chat](https://github.com/cloudflare/agents/blob/main/docs/think/multi-chat.md#share-the-workspace).\n\n### Patch Changes\n\n-   [#2678](https://github.com/cloudflare/agents/pull/2678) [`325c6ca`](https://github.com/cloudflare/agents/commit/325c6ca1c9c28f056aa14df6c611c165062151f5) Thanks [@github-actions](https://github.com/apps/github-actions)! - Fix the `ai` peer dependency version in the Think README; see [Think dependencies](https://github.com/cloudflare/agents/blob/main/docs/think/index.md#dependencies).\n"}
