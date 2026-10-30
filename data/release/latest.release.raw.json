@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/cloudflare/agents/releases/425499416",
-  "assets_url": "https://api.github.com/repos/cloudflare/agents/releases/425499416/assets",
-  "upload_url": "https://uploads.github.com/repos/cloudflare/agents/releases/425499416/assets{?name,label}",
-  "html_url": "https://github.com/cloudflare/agents/releases/tag/%40cloudflare/think%400.22.0",
-  "id": 425499416,
+  "url": "https://api.github.com/repos/cloudflare/agents/releases/428272251",
+  "assets_url": "https://api.github.com/repos/cloudflare/agents/releases/428272251/assets",
+  "upload_url": "https://uploads.github.com/repos/cloudflare/agents/releases/428272251/assets{?name,label}",
+  "html_url": "https://github.com/cloudflare/agents/releases/tag/%40cloudflare/think%400.23.0",
+  "id": 428272251,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDONxkjBM4ZXJsY",
-  "tag_name": "@cloudflare/think@0.22.0",
+  "node_id": "RE_kwDONxkjBM4Zhup7",
+  "tag_name": "@cloudflare/think@0.23.0",
   "target_commitish": "main",
-  "name": "@cloudflare/think@0.22.0",
+  "name": "@cloudflare/think@0.23.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-27T13:29:09Z",
-  "updated_at": "2026-10-27T13:29:15Z",
-  "published_at": "2026-10-27T13:29:15Z",
+  "created_at": "2026-10-29T18:53:05Z",
+  "updated_at": "2026-10-29T18:53:13Z",
+  "published_at": "2026-10-29T18:53:13Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/cloudflare/agents/tarball/@cloudflare/think@0.22.0",
-  "zipball_url": "https://api.github.com/repos/cloudflare/agents/zipball/@cloudflare/think@0.22.0",
-  "body": "### Minor Changes\n\n-   [#2632](https://github.com/cloudflare/agents/pull/2632) [`361046e`](https://github.com/cloudflare/agents/commit/361046e4f5f528540783d9078c438cb3cbe2d470) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Remove `lazyWorkspace`, exported by mistake in 0.21.0. Use `getWorkspace(() => stub)` from `@cloudflare/computer` instead. Think's `@cloudflare/computer` peer is now `^0.8.0`, so upgrade Computer to 0.8 alongside Think. See [Multi-session chat](https://github.com/cloudflare/agents/blob/main/docs/think/multi-chat.md#share-the-workspace).\n\n### Patch Changes\n\n-   [#2678](https://github.com/cloudflare/agents/pull/2678) [`325c6ca`](https://github.com/cloudflare/agents/commit/325c6ca1c9c28f056aa14df6c611c165062151f5) Thanks [@github-actions](https://github.com/apps/github-actions)! - Fix the `ai` peer dependency version in the Think README; see [Think dependencies](https://github.com/cloudflare/agents/blob/main/docs/think/index.md#dependencies).\n"
+  "tarball_url": "https://api.github.com/repos/cloudflare/agents/tarball/@cloudflare/think@0.23.0",
+  "zipball_url": "https://api.github.com/repos/cloudflare/agents/zipball/@cloudflare/think@0.23.0",
+  "body": "### Minor Changes\n\n-   [#2771](https://github.com/cloudflare/agents/pull/2771) [`54ae3e8`](https://github.com/cloudflare/agents/commit/54ae3e86987be92ae20bc6a8b06c26ec1884d01c) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Breaking: Think reloads `getSkills()` sources every turn, so `skills.workspace(this.workspace)` picks up skills written to `/workspace/.agents/skills`; an overridden `getSystemPrompt()` now always renders above context blocks instead of being dropped once any block exists; skill catalog changes reach the model as a context reminder rather than rebuilding the cached system prompt; `skillWorkspace` and the extension `\"skill\"` context block type are removed. See [Agent Skills](https://developers.cloudflare.com/agents/skills/).\n"
 }
