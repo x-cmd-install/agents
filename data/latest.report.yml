@@ -7,7 +7,7 @@ about:
   latestVersion: "@cloudflare/think@0.23.0"
   latestRelease: "@cloudflare/think@0.23.0"
   latestPrerelease: ""
-  collectedAt: 2026-10-30T07:02:27Z
+  collectedAt: 2026-10-31T06:53:41Z
 timeline:
   created: 2025-01-29
   lastCommit: 2026-10-29
@@ -15,13 +15,13 @@ timeline:
   lastRelease: 2026-10-29
   lastPrerelease: 
 popularity:
-  star: 5916
+  star: 5922
   watcher: 34
-  fork: 815
+  fork: 818
   release: 423
-  contributor: 161
-  pullRequest: 1801
-  issue: 866
+  contributor: 162
+  pullRequest: 1805
+  issue: 867
 language:
   TypeScript: 16934098
   JavaScript: 62313
@@ -33,63 +33,63 @@ language:
 totalBytes: 17073358
 recent:
   last30d:
-    since: 2026-09-30
+    since: 2026-10-01
     release: 25
-    mergedPR: 168
-    openPR: 21
-    closedIssue: 24
+    mergedPR: 153
+    openPR: 14
+    closedIssue: 23
     openIssue: 79
-    commit: 0
+    commit: 169
   last60d:
-    since: 2026-08-31
+    since: 2026-09-01
     release: 40
-    mergedPR: 285
-    openPR: 32
-    closedIssue: 66
-    openIssue: 94
-    commit: 0
+    mergedPR: 277
+    openPR: 26
+    closedIssue: 65
+    openIssue: 95
+    commit: 294
   last90d:
-    since: 2026-08-01
+    since: 2026-08-02
     release: 60
     mergedPR: 350
-    openPR: 34
-    closedIssue: 116
-    openIssue: 104
-    commit: 0
+    openPR: 28
+    closedIssue: 113
+    openIssue: 105
+    commit: 358
   last180d:
-    since: 2026-05-03
+    since: 2026-05-04
     release: 100
-    mergedPR: 615
-    openPR: 39
-    closedIssue: 297
-    openIssue: 140
-    commit: 0
+    mergedPR: 611
+    openPR: 33
+    closedIssue: 294
+    openIssue: 141
+    commit: 651
   last360d:
-    since: 2025-11-04
+    since: 2025-11-05
     release: 100
-    mergedPR: 1079
-    openPR: 39
-    closedIssue: 525
-    openIssue: 161
-    commit: 0
+    mergedPR: 1075
+    openPR: 33
+    closedIssue: 524
+    openIssue: 162
+    commit: 1261
   last720d:
-    since: 2024-11-09
+    since: 2024-11-10
     release: 100
     mergedPR: 1455
-    openPR: 39
+    openPR: 33
     closedIssue: 703
-    openIssue: 163
+    openIssue: 164
     commit: 1819
 total:
   release: 423
   mergedPR: 1455
-  openPR: 39
+  openPR: 33
   closedIssue: 703
-  openIssue: 163
+  openIssue: 164
   commit: 1819
 ---
 path: /home/runner/.x-repo/github.com/cloudflare/agents
-collectedAt: 2026-10-30T07:02:37Z
+collectedAt: 2026-10-31T06:53:51Z
 loc:
   TypeScript:
     code: 416263
