@@ -7,7 +7,7 @@ about:
   latestVersion: "@cloudflare/think@0.23.0"
   latestRelease: "@cloudflare/think@0.23.0"
   latestPrerelease: ""
-  collectedAt: 2026-11-01T07:12:43Z
+  collectedAt: 2026-11-02T07:27:23Z
 timeline:
   created: 2025-01-29
   lastCommit: 2026-10-29
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-10-29
   lastPrerelease: 
 popularity:
-  star: 5929
+  star: 5936
   watcher: 34
   fork: 820
   release: 423
@@ -33,47 +33,47 @@ language:
 totalBytes: 17073358
 recent:
   last30d:
-    since: 2026-10-02
-    release: 25
+    since: 2026-10-03
+    release: 19
     mergedPR: 139
     openPR: 15
-    closedIssue: 22
-    openIssue: 75
+    closedIssue: 19
+    openIssue: 74
     commit: 107
   last60d:
-    since: 2026-09-02
+    since: 2026-09-03
     release: 40
-    mergedPR: 276
-    openPR: 26
-    closedIssue: 63
+    mergedPR: 273
+    openPR: 25
+    closedIssue: 60
     openIssue: 94
     commit: 285
   last90d:
-    since: 2026-08-03
+    since: 2026-08-04
     release: 60
-    mergedPR: 344
+    mergedPR: 337
     openPR: 29
-    closedIssue: 107
+    closedIssue: 104
     openIssue: 106
     commit: 347
   last180d:
-    since: 2026-05-05
+    since: 2026-05-06
     release: 100
-    mergedPR: 609
+    mergedPR: 606
     openPR: 34
-    closedIssue: 293
+    closedIssue: 290
     openIssue: 142
     commit: 633
   last360d:
-    since: 2025-11-06
+    since: 2025-11-07
     release: 100
-    mergedPR: 1074
+    mergedPR: 1073
     openPR: 34
     closedIssue: 523
     openIssue: 163
     commit: 1257
   last720d:
-    since: 2024-11-11
+    since: 2024-11-12
     release: 100
     mergedPR: 1455
     openPR: 34
@@ -89,7 +89,7 @@ total:
   commit: 1819
 ---
 path: /home/runner/.x-repo/github.com/cloudflare/agents
-collectedAt: 2026-11-01T07:12:55Z
+collectedAt: 2026-11-02T07:27:38Z
 loc:
   TypeScript:
     code: 416263
