@@ -33,26 +33,26 @@ Total: **530,185** lines of code across **2348** files in the top 5 languages.
 ## Release
 
 - **Latest**: `@cloudflare/think@0.23.0` (2026-10-29)
-- **Last commit**: 2026-10-29
+- **Last commit**: 2026-11-02
 
 ## Popularity
 
-- **Stars**: 5,936 · **Forks**: 820 · **Open issues**: 868 · **Contributors**: 162
+- **Stars**: 5,940 · **Forks**: 821 · **Open issues**: 875 · **Contributors**: 162
 
 ## Totals (cumulative)
 
-- **Releases**: 423 · **Merged PRs**: 1455 · **Open PRs**: 34 · **Closed issues**: 703 · **Open issues**: 165 · **Commits**: 1819
+- **Releases**: 423 · **Merged PRs**: 1456 · **Open PRs**: 42 · **Closed issues**: 704 · **Open issues**: 171 · **Commits**: 1820
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 19 | 139 | 15 | 19 | 74 | 107 |
-| last60d | 2026-09-03 | 40 | 273 | 25 | 60 | 94 | 285 |
-| 90d | 2026-08-04 | 60 | 337 | 29 | 104 | 106 | 347 |
-| last180d | 2026-05-06 | 100 | 606 | 34 | 290 | 142 | 633 |
-| 360d | 2025-11-07 | 100 | 1073 | 34 | 523 | 163 | 1257 |
-| last720d | 2024-11-12 | 100 | 1455 | 34 | 703 | 165 | 1819 |
+| 30d | 2026-10-04 | 19 | 135 | 23 | 19 | 78 | 108 |
+| last60d | 2026-09-04 | 40 | 273 | 33 | 58 | 101 | 286 |
+| 90d | 2026-08-05 | 60 | 333 | 37 | 101 | 113 | 348 |
+| last180d | 2026-05-07 | 100 | 604 | 42 | 287 | 149 | 634 |
+| 360d | 2025-11-08 | 100 | 1073 | 42 | 523 | 169 | 1258 |
+| last720d | 2024-11-13 | 100 | 1456 | 42 | 704 | 171 | 1820 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for agents lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T07:27:43Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T08:12:29Z._
