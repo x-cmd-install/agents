@@ -2,112 +2,112 @@ about:
   description: "Build and deploy AI Agents on Cloudflare "
   license: MIT
   homepage: https://developers.cloudflare.com/agents/
-  head: 5cb7d4f
+  head: 455b47e
   archived: false
-  latestVersion: "@cloudflare/think@0.23.0"
-  latestRelease: "@cloudflare/think@0.23.0"
+  latestVersion: "agents@0.33.0"
+  latestRelease: "agents@0.33.0"
   latestPrerelease: ""
-  collectedAt: 2026-11-03T08:12:09Z
+  collectedAt: 2026-11-04T07:52:50Z
 timeline:
   created: 2025-01-29
-  lastCommit: 2026-11-02
-  lastVersion: 2026-10-29
-  lastRelease: 2026-10-29
+  lastCommit: 2026-11-03
+  lastVersion: 2026-11-03
+  lastRelease: 2026-11-03
   lastPrerelease: 
 popularity:
-  star: 5940
+  star: 5946
   watcher: 34
-  fork: 821
-  release: 423
-  contributor: 162
-  pullRequest: 1816
-  issue: 875
+  fork: 824
+  release: 424
+  contributor: 163
+  pullRequest: 1820
+  issue: 879
 language:
-  TypeScript: 16934098
+  TypeScript: 16996306
   JavaScript: 62313
   CSS: 41550
   Shell: 11401
   Astro: 10893
   HTML: 7527
   Dockerfile: 5576
-totalBytes: 17073358
+totalBytes: 17135566
 recent:
   last30d:
-    since: 2026-10-04
-    release: 19
-    mergedPR: 135
-    openPR: 23
-    closedIssue: 19
-    openIssue: 78
-    commit: 108
+    since: 2026-10-05
+    release: 20
+    mergedPR: 134
+    openPR: 17
+    closedIssue: 28
+    openIssue: 72
+    commit: 117
   last60d:
-    since: 2026-09-04
-    release: 40
-    mergedPR: 273
-    openPR: 33
-    closedIssue: 58
-    openIssue: 101
-    commit: 286
+    since: 2026-09-05
+    release: 41
+    mergedPR: 282
+    openPR: 27
+    closedIssue: 68
+    openIssue: 95
+    commit: 295
   last90d:
-    since: 2026-08-05
-    release: 60
-    mergedPR: 333
-    openPR: 37
-    closedIssue: 101
-    openIssue: 113
-    commit: 348
+    since: 2026-08-06
+    release: 61
+    mergedPR: 336
+    openPR: 31
+    closedIssue: 109
+    openIssue: 105
+    commit: 357
   last180d:
-    since: 2026-05-07
+    since: 2026-05-08
     release: 100
-    mergedPR: 604
-    openPR: 42
-    closedIssue: 287
-    openIssue: 149
-    commit: 634
+    mergedPR: 609
+    openPR: 36
+    closedIssue: 293
+    openIssue: 142
+    commit: 643
   last360d:
-    since: 2025-11-08
+    since: 2025-11-09
     release: 100
-    mergedPR: 1073
-    openPR: 42
-    closedIssue: 523
-    openIssue: 169
-    commit: 1258
+    mergedPR: 1082
+    openPR: 36
+    closedIssue: 533
+    openIssue: 163
+    commit: 1267
   last720d:
-    since: 2024-11-13
+    since: 2024-11-14
     release: 100
-    mergedPR: 1456
-    openPR: 42
-    closedIssue: 704
-    openIssue: 171
-    commit: 1820
+    mergedPR: 1465
+    openPR: 36
+    closedIssue: 714
+    openIssue: 165
+    commit: 1829
 total:
-  release: 423
-  mergedPR: 1456
-  openPR: 42
-  closedIssue: 704
-  openIssue: 171
-  commit: 1820
+  release: 424
+  mergedPR: 1465
+  openPR: 36
+  closedIssue: 714
+  openIssue: 165
+  commit: 1829
 ---
 path: /home/runner/.x-repo/github.com/cloudflare/agents
-collectedAt: 2026-11-03T08:12:23Z
+collectedAt: 2026-11-04T07:53:05Z
 loc:
   TypeScript:
-    code: 416263
-    comments: 71107
-    blanks: 49275
-    files: 1813
+    code: 417363
+    comments: 71473
+    blanks: 49401
+    files: 1818
   Tsx:
-    code: 72591
-    comments: 3499
-    blanks: 5832
+    code: 72656
+    comments: 3502
+    blanks: 5842
     files: 199
   Yaml:
-    code: 25895
+    code: 25886
     comments: 67
-    blanks: 1765
+    blanks: 1766
     files: 7
   Json:
-    code: 6745
+    code: 6755
     comments: 0
     blanks: 5
     files: 255
@@ -163,8 +163,8 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 52693
-    blanks: 18972
+    comments: 52812
+    blanks: 19022
     files: 289
   Text:
     code: 0
@@ -172,11 +172,11 @@ loc:
     blanks: 160
     files: 15
 total:
-  code: 541623
-  comments: 130270
-  blanks: 78321
-  files: 2764
+  code: 542789
+  comments: 130758
+  blanks: 78508
+  files: 2769
 ---
 
 ---
-{"id":428272251,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDONxkjBM4Zhup7","tag_name":"@cloudflare/think@0.23.0","target_commitish":"main","name":"@cloudflare/think@0.23.0","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-10-29T18:53:05Z","updated_at":"2026-10-29T18:53:13Z","published_at":"2026-10-29T18:53:13Z","assets":[],"body":"### Minor Changes\n\n-   [#2771](https://github.com/cloudflare/agents/pull/2771) [`54ae3e8`](https://github.com/cloudflare/agents/commit/54ae3e86987be92ae20bc6a8b06c26ec1884d01c) Thanks [@mattzcarey](https://github.com/mattzcarey)! - Breaking: Think reloads `getSkills()` sources every turn, so `skills.workspace(this.workspace)` picks up skills written to `/workspace/.agents/skills`; an overridden `getSystemPrompt()` now always renders above context blocks instead of being dropped once any block exists; skill catalog changes reach the model as a context reminder rather than rebuilding the cached system prompt; `skillWorkspace` and the extension `\"skill\"` context block type are removed. See [Agent Skills](https://developers.cloudflare.com/agents/skills/).\n"}
+{"id":432718619,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDONxkjBM4ZysMb","tag_name":"agents@0.33.0","target_commitish":"main","name":"agents@0.33.0","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-11-03T13:14:12Z","updated_at":"2026-11-03T13:14:15Z","published_at":"2026-11-03T13:14:15Z","assets":[],"body":"This release adds support for [Pi 1.5](https://github.com/earendil-works/pi/blob/v1.5.0/packages/durable/CHANGELOG.md#150---2026-11-02), which makes `PiHarness` much faster and lighter on memory, and lets you continue a run that ended without an answer.\n\n### Highlights\n\n-   **Pi 1.5 support:** `agents/harness/pi`, `agents/models/pi-ai` and the Pi tools now run on Pi 1.5.\n-   **Far fewer storage writes while streaming:** Pi stores streamed answers and tool output in batches, at the latest every second, instead of on every update. Over SQLite this cuts storage transactions about 27x for long answers and 5.7x for turns with parallel tools, and CPU by about a quarter. A crash can now lose up to about a second of streamed output.\n-   **Faster with many sessions:** Pi's scheduler no longer rechecks every conversation on each commit, so on SQLite one Pi harness with 2,048 sessions went from 88 to 459 agent runs per second. Commits that arrive together now share one storage call, and a normal run makes no storage reads.\n-   **Large answers no longer blow up memory:** streaming a 500 KB tool call used to take about 20 s of CPU and a 100 MB heap, and a 140 KB answer followed by a 140 KB tool call held over 100 MB. Pi now appends new text instead of copying it on every update.\n-   **Conversation view:** `session.watch()` replaces `session.events()`. It returns the newest transcript entries and the session's live state, such as the answer being streamed, running tools, and why the last run ended without an answer. `session.entries()` pages older entries. See [Work with sessions](https://github.com/cloudflare/agents/blob/main/docs/agents/harnesses/pi.md#work-with-sessions).\n-   **Continue a run:** `session.continue()` starts a run on the transcript as it is, without a new message, for example after the model errored or the run hit its turn limit.\n-   **Turn limit:** `defaults.maxTurns` caps the tool rounds a run can take in new sessions. A run that reaches it ends without an answer, with reason `turn_limit`.\n-   **Crash-looping tasks end instead of parking:** a tool call cut off by Pi's restart limit ends with an error result the model sees, and a model request ends its run without an answer, with reason `restart_limit`. See [How recovery works](https://github.com/cloudflare/agents/blob/main/docs/agents/harnesses/pi.md#how-recovery-works).\n-   **Other changes:** `submit()` takes `whenIdle: \"reject\"`, so an idle session refuses input instead of starting a run. Streamed tool-call arguments on the chat-completions wire that aren't valid JSON now fail the tool call with an error the model can fix. In Pi's code mode, `browserTool` gives scripts its run as an object, with screenshots as image blocks for `image()`. `browserTool` stops when the harness aborts its call, and `BrowserSession` lets code outside `browserTool` run the same `browser` object. `useAgentChat().stop()` now cancels server-started turns streamed without a resume handshake.\n\n### Upgrading\n\nYou only need to make changes if you use the Pi harness, `agents/models/pi-ai` or the Pi tools.\n\n1.  **Update Pi to `~1.5.0`** (`@earendil-works/pi-durable`, `pi-ai`, `chord`) and install `@earendil-works/pi-schema` alongside them. Once a conversation runs on Pi 1.5, Pi 1.4 cannot read it, so a deployment cannot roll back past this release. Roll forward to fix a bad deploy instead.\n\n2.  **Check [pi-durable's 1.5.0 changelog](https://github.com/earendil-works/pi/blob/v1.5.0/packages/durable/CHANGELOG.md#150---2026-11-02)** for its breaking changes, such as the removal of `watchEvents()`, tagged watch calls and ends, and `ConversationView.entries` becoming a window over the transcript.\n\n3.  **Replace `session.events()` with `session.watch()`** and render the view each time it changes. To show a transcript longer than the window, merge each value into Pi's `ConversationTranscript`, which pages older entries with `session.entries()`. The view's entries now include those before a reset or compaction: Pi adds the reset or summary in place instead of cutting the transcript there. An idle `pi.live` now keeps `runFailure` after a failed run, so check `run === undefined` instead of comparing it with `{}`.\n\n    ```diff\n    - const stream = await session.events();\n    - initialize(stream.snapshot);\n    - stream.start(async (events) => events.forEach(apply));\n    + const watch = await session.watch();\n    + render(watch.value);\n    + watch.start(async (call) => {\n    +   if (call.kind === \"value\") render(call.value);\n    + });\n    ```\n\n4.  **Build your Pi tool schemas with `@earendil-works/pi-schema`**, as pi-ai no longer exports TypeBox's `Type`. Unlike `Type.Object`, `obj()` rejects properties it doesn't list; pass `{ open: true }` to allow them. To keep TypeBox instead, import `Type` from `typebox`.\n\n    ```diff\n    - import { Type } from \"@earendil-works/pi-ai\";\n    - const WordCount = Type.Object({ text: Type.String() });\n    + import { obj, str } from \"@earendil-works/pi-schema\";\n    + const WordCount = obj({ text: str() });\n    ```\n\n5.  **Remove calls to `retry()` and handling of the `parked` status.** To run work again after a run ended without an answer, call `session.continue()` or submit it again.\n\n6.  **Update your `onReport` callback** if you pass one to `Harness.open`. It now takes one report tagged by `kind`, with the error on it. `session_failed` is now `storage_failed`, and a task the restart limit ends is reported as `task_interrupted` instead of `task_parked`.\n\n### Minor Changes\n\n-   [#2796](https://github.com/cloudflare/agents/pull/2796) [`edf1b52`](https://github.com/cloudflare/agents/commit/edf1b5274b845571853a73fc1e8edd0ca4b62423) Thanks [@ben-reitz](https://github.com/ben-reitz)! - Support Pi 1.5 (`~1.5.0`; Pi 1.4 is no longer supported): `session.watch()` replaces `session.events()` and returns Pi's conversation view, `session.entries()` pages the transcript, `retry()` and the `parked` pending status are removed as Pi now ends crash-looping tasks, `submit()` takes `whenIdle: \"reject\"`, and the Pi tools build their schemas with `@earendil-works/pi-schema`, a new optional peer, as pi-ai no longer exports TypeBox's `Type`. See [pi-durable 1.5.0's changelog](https://github.com/earendil-works/pi/blob/v1.5.0/packages/durable/CHANGELOG.md#150---2026-11-02).\n\n-   [#2797](https://github.com/cloudflare/agents/pull/2797) [`77138fa`](https://github.com/cloudflare/agents/commit/77138fa1a36f2c16f74c584ab3388058d5909182) Thanks [@ben-reitz](https://github.com/ben-reitz)! - Two new controls for the Pi harness, from Pi 1.5:\n\n    -   `continue()` starts a run without sending a new message. Use it to try again after a run ended without an answer, for example because the model errored or the run hit its turn limit.\n    -   `defaults.maxTurns` limits how many tool rounds a run can take. A run that reaches it ends without an answer, with reason `turn_limit`.\n\n    See [Pi harness](https://developers.cloudflare.com/agents/harnesses/pi/).\n\n### Patch Changes\n\n-   [#2795](https://github.com/cloudflare/agents/pull/2795) [`3e21ee4`](https://github.com/cloudflare/agents/commit/3e21ee48df129513310b844b05928bf3b5123d00) Thanks [@ben-reitz](https://github.com/ben-reitz)! - Add `Browser.functionDocs()`, `BrowserSession.functions`, report `notices`, opt-in scope locks (`browser.session({ lock: true })`, `session.lock()`) and `conversationScope()` to `agents/browser`, so code outside `browserTool` can run the same `browser` object. See [Browse the Web](https://developers.cloudflare.com/agents/tools/browser/).\n\n-   [#2795](https://github.com/cloudflare/agents/pull/2795) [`3e21ee4`](https://github.com/cloudflare/agents/commit/3e21ee48df129513310b844b05928bf3b5123d00) Thanks [@ben-reitz](https://github.com/ben-reitz)! - `browserTool` stops when the harness aborts its call, for pi, the AI SDK and TanStack AI. See [Browse the Web](https://developers.cloudflare.com/agents/tools/browser/).\n\n-   [#2798](https://github.com/cloudflare/agents/pull/2798) [`62ccd87`](https://github.com/cloudflare/agents/commit/62ccd8735b655dbe2d8d4f05716b6e6679958c8b) Thanks [@ben-reitz](https://github.com/ben-reitz)! - Pi models on the chat-completions wire (Workers AI, and OpenAI-compatible models through AI Gateway) now parse streamed tool-call arguments with pi-ai's own parser. When a model sends arguments that aren't valid JSON, the tool call now fails with an error the model can see and fix, instead of running with whatever arguments could be salvaged.\n\n    See [Models for pi-ai](https://developers.cloudflare.com/agents/models/pi-ai/).\n\n-   [#2801](https://github.com/cloudflare/agents/pull/2801) [`748e693`](https://github.com/cloudflare/agents/commit/748e69393c034ceedfd718f9c14ab8346222335d) Thanks [@ben-reitz](https://github.com/ben-reitz)! - The pi `browserTool` gives code mode scripts the run as an object, with screenshots as image blocks for `image()`. See [Browse the Web](https://developers.cloudflare.com/agents/tools/browser/#in-pis-code-mode).\n\n-   [#2805](https://github.com/cloudflare/agents/pull/2805) [`baf26bc`](https://github.com/cloudflare/agents/commit/baf26bc0eb7e06507976592d15fcb1cd8a4ab78e) Thanks [@ben-reitz](https://github.com/ben-reitz)! - `useAgentChat().stop()` now cancels server-started turns streamed without a resume handshake. See [Request cancellation](https://developers.cloudflare.com/agents/agent-class/communication-channels/chat/chat-agents/#request-cancellation).\n"}
