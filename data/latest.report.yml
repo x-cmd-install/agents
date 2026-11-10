@@ -2,26 +2,26 @@ about:
   description: "Build and deploy AI Agents on Cloudflare "
   license: MIT
   homepage: https://developers.cloudflare.com/agents/
-  head: 5c33d89
+  head: 5575214
   archived: false
   latestVersion: "agents@0.33.0"
   latestRelease: "agents@0.33.0"
   latestPrerelease: ""
-  collectedAt: 2026-11-08T07:09:27Z
+  collectedAt: 2026-11-10T08:45:13Z
 timeline:
   created: 2025-01-29
-  lastCommit: 2026-11-06
+  lastCommit: 2026-11-10
   lastVersion: 2026-11-03
   lastRelease: 2026-11-03
   lastPrerelease: 
 popularity:
-  star: 5969
+  star: 5978
   watcher: 34
-  fork: 836
+  fork: 840
   release: 424
   contributor: 163
-  pullRequest: 1833
-  issue: 897
+  pullRequest: 1836
+  issue: 902
 language:
   TypeScript: 17176016
   JavaScript: 62313
@@ -33,63 +33,63 @@ language:
 totalBytes: 17315236
 recent:
   last30d:
-    since: 2026-10-09
-    release: 17
-    mergedPR: 121
-    openPR: 18
-    closedIssue: 43
-    openIssue: 64
-    commit: 128
+    since: 2026-10-11
+    release: 15
+    mergedPR: 122
+    openPR: 19
+    closedIssue: 46
+    openIssue: 61
+    commit: 106
   last60d:
-    since: 2026-09-09
+    since: 2026-09-11
     release: 41
-    mergedPR: 288
+    mergedPR: 276
     openPR: 29
-    closedIssue: 84
-    openIssue: 96
-    commit: 306
+    closedIssue: 83
+    openIssue: 97
+    commit: 287
   last90d:
-    since: 2026-08-10
+    since: 2026-08-12
     release: 61
-    mergedPR: 344
-    openPR: 33
+    mergedPR: 337
+    openPR: 34
     closedIssue: 120
-    openIssue: 105
-    commit: 368
+    openIssue: 107
+    commit: 351
   last180d:
-    since: 2026-05-12
+    since: 2026-05-14
     release: 100
-    mergedPR: 609
-    openPR: 37
-    closedIssue: 300
+    mergedPR: 604
+    openPR: 38
+    closedIssue: 301
     openIssue: 142
-    commit: 654
+    commit: 630
   last360d:
-    since: 2025-11-13
+    since: 2025-11-15
     release: 100
     mergedPR: 1089
-    openPR: 38
-    closedIssue: 548
-    openIssue: 164
-    commit: 1278
-  last720d:
-    since: 2024-11-18
-    release: 100
-    mergedPR: 1476
-    openPR: 38
-    closedIssue: 731
+    openPR: 39
+    closedIssue: 551
     openIssue: 166
-    commit: 1840
+    commit: 1260
+  last720d:
+    since: 2024-11-20
+    release: 100
+    mergedPR: 1477
+    openPR: 39
+    closedIssue: 734
+    openIssue: 168
+    commit: 1841
 total:
   release: 424
-  mergedPR: 1476
-  openPR: 38
-  closedIssue: 731
-  openIssue: 166
-  commit: 1840
+  mergedPR: 1477
+  openPR: 39
+  closedIssue: 734
+  openIssue: 168
+  commit: 1841
 ---
 path: /home/runner/.x-repo/github.com/cloudflare/agents
-collectedAt: 2026-11-08T07:09:38Z
+collectedAt: 2026-11-10T08:45:27Z
 loc:
   TypeScript:
     code: 422029
@@ -102,7 +102,7 @@ loc:
     blanks: 5856
     files: 199
   Yaml:
-    code: 25910
+    code: 25913
     comments: 54
     blanks: 1767
     files: 6
@@ -172,7 +172,7 @@ loc:
     blanks: 160
     files: 15
 total:
-  code: 547870
+  code: 547873
   comments: 131970
   blanks: 79055
   files: 2794
