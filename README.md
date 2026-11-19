@@ -14,12 +14,12 @@ x install agents
 
 ## Code insight
 
-Total: **539,638** lines of code across **2393** files in the top 5 languages.
+Total: **540,680** lines of code across **2394** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| TypeScript | 425,255 | 73,213 | 50,283 | 1858 |
-| Tsx | 72,995 | 3,531 | 5,856 | 199 |
+| TypeScript | 426,313 | 73,384 | 50,371 | 1859 |
+| Tsx | 72,979 | 3,531 | 5,856 | 199 |
 | Yaml | 25,925 | 54 | 1,768 | 6 |
 | Json | 6,763 | 0 | 5 | 256 |
 | Css | 4,750 | 586 | 749 | 74 |
@@ -33,26 +33,26 @@ Total: **539,638** lines of code across **2393** files in the top 5 languages.
 ## Release
 
 - **Latest**: `agents@0.33.0` (2026-11-03)
-- **Last commit**: 2026-11-17
+- **Last commit**: 2026-11-19
 
 ## Popularity
 
-- **Stars**: 5,998 · **Forks**: 849 · **Open issues**: 915 · **Contributors**: 164
+- **Stars**: 6,004 · **Forks**: 852 · **Open issues**: 926 · **Contributors**: 164
 
 ## Totals (cumulative)
 
-- **Releases**: 424 · **Merged PRs**: 1490 · **Open PRs**: 45 · **Closed issues**: 745 · **Open issues**: 170 · **Commits**: 1854
+- **Releases**: 424 · **Merged PRs**: 1495 · **Open PRs**: 47 · **Closed issues**: 757 · **Open issues**: 169 · **Commits**: 1859
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 13 | 107 | 24 | 52 | 53 | 86 |
-| last60d | 2026-09-18 | 30 | 276 | 30 | 73 | 94 | 294 |
-| 90d | 2026-08-19 | 51 | 336 | 39 | 122 | 107 | 353 |
-| last180d | 2026-05-21 | 100 | 593 | 44 | 295 | 140 | 623 |
-| 360d | 2025-11-22 | 100 | 1088 | 45 | 558 | 168 | 1261 |
-| last720d | 2024-11-27 | 100 | 1490 | 45 | 745 | 170 | 1854 |
+| 30d | 2026-10-20 | 13 | 101 | 25 | 63 | 46 | 91 |
+| last60d | 2026-09-20 | 26 | 281 | 32 | 85 | 92 | 299 |
+| 90d | 2026-08-21 | 51 | 338 | 41 | 133 | 105 | 358 |
+| last180d | 2026-05-23 | 100 | 595 | 46 | 305 | 139 | 628 |
+| 360d | 2025-11-24 | 100 | 1092 | 47 | 569 | 167 | 1266 |
+| last720d | 2024-11-29 | 100 | 1495 | 47 | 757 | 169 | 1859 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for agents lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T10:58:27Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T10:37:42Z._
