@@ -2,125 +2,125 @@ about:
   description: "Build and deploy AI Agents on Cloudflare "
   license: MIT
   homepage: https://developers.cloudflare.com/agents/
-  head: cfa7a52
+  head: b878ced
   archived: false
-  latestVersion: "@cloudflare/think@0.24.0"
-  latestRelease: "@cloudflare/think@0.24.0"
+  latestVersion: "agents@0.34.1"
+  latestRelease: "agents@0.34.1"
   latestPrerelease: ""
-  collectedAt: 2026-11-25T10:04:23Z
+  collectedAt: 2026-11-26T09:22:20Z
 timeline:
   created: 2025-01-29
-  lastCommit: 2026-11-25
-  lastVersion: 2026-11-20
-  lastRelease: 2026-11-20
+  lastCommit: 2026-11-26
+  lastVersion: 2026-11-25
+  lastRelease: 2026-11-25
   lastPrerelease: 
 popularity:
-  star: 6134
+  star: 6149
   watcher: 32
   fork: 871
-  release: 427
-  contributor: 168
-  pullRequest: 2075
-  issue: 940
+  release: 428
+  contributor: 167
+  pullRequest: 2176
+  issue: 941
 language:
-  TypeScript: 19887634
+  TypeScript: 20546308
   JavaScript: 62313
   CSS: 41550
   Shell: 11361
   Astro: 10908
   HTML: 7527
   Dockerfile: 5576
-totalBytes: 20026869
+totalBytes: 20685543
 recent:
   last30d:
-    since: 2026-10-26
-    release: 9
-    mergedPR: 237
-    openPR: 20
+    since: 2026-10-27
+    release: 10
+    mergedPR: 317
+    openPR: 28
     closedIssue: 65
-    openIssue: 27
-    commit: 217
+    openIssue: 15
+    commit: 306
   last60d:
-    since: 2026-09-26
-    release: 29
-    mergedPR: 416
-    openPR: 26
-    closedIssue: 101
-    openIssue: 79
-    commit: 399
+    since: 2026-09-27
+    release: 30
+    mergedPR: 499
+    openPR: 36
+    closedIssue: 105
+    openIssue: 76
+    commit: 488
   last90d:
-    since: 2026-08-27
-    release: 54
-    mergedPR: 513
-    openPR: 35
-    closedIssue: 150
-    openIssue: 93
-    commit: 517
+    since: 2026-08-28
+    release: 45
+    mergedPR: 596
+    openPR: 45
+    closedIssue: 153
+    openIssue: 89
+    commit: 606
   last180d:
-    since: 2026-05-29
+    since: 2026-05-30
     release: 100
-    mergedPR: 756
-    openPR: 41
-    closedIssue: 316
-    openIssue: 128
-    commit: 770
+    mergedPR: 844
+    openPR: 51
+    closedIssue: 320
+    openIssue: 123
+    commit: 859
   last360d:
-    since: 2025-11-30
+    since: 2025-12-01
     release: 100
-    mergedPR: 1263
-    openPR: 42
-    closedIssue: 590
-    openIssue: 157
-    commit: 1415
+    mergedPR: 1350
+    openPR: 52
+    closedIssue: 595
+    openIssue: 153
+    commit: 1504
   last720d:
-    since: 2024-12-05
+    since: 2024-12-06
     release: 100
-    mergedPR: 1675
-    openPR: 42
-    closedIssue: 781
-    openIssue: 159
-    commit: 2036
+    mergedPR: 1765
+    openPR: 52
+    closedIssue: 786
+    openIssue: 155
+    commit: 2125
 total:
-  release: 427
-  mergedPR: 1675
-  openPR: 42
-  closedIssue: 781
-  openIssue: 159
-  commit: 2036
+  release: 428
+  mergedPR: 1766
+  openPR: 52
+  closedIssue: 786
+  openIssue: 155
+  commit: 2125
 ---
 path: /home/runner/.x-repo/github.com/cloudflare/agents
-collectedAt: 2026-11-25T10:04:33Z
+collectedAt: 2026-11-26T09:22:36Z
 loc:
   TypeScript:
-    code: 482457
-    comments: 83788
-    blanks: 54734
-    files: 2035
+    code: 498278
+    comments: 86699
+    blanks: 55790
+    files: 2081
   Tsx:
     code: 74099
     comments: 3666
     blanks: 5929
     files: 205
   Yaml:
-    code: 25772
+    code: 25775
     comments: 54
     blanks: 1742
     files: 6
   Json:
-    code: 11662
+    code: 12449
     comments: 0
     blanks: 5
-    files: 258
+    files: 260
   Css:
     code: 4750
     comments: 586
     blanks: 749
     files: 74
   JavaScript:
-    code: 1706
-    comments: 332
+    code: 1748
+    comments: 334
     blanks: 157
-    files: 13
+    files: 14
   Html:
     code: 1111
     comments: 4
@@ -163,20 +163,20 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 54680
-    blanks: 19639
-    files: 299
+    comments: 54848
+    blanks: 19720
+    files: 303
   Text:
     code: 0
     comments: 733
     blanks: 160
     files: 15
 total:
-  code: 614130
-  comments: 145092
-  blanks: 84516
-  files: 3004
+  code: 630783
+  comments: 148173
+  blanks: 85653
+  files: 3057
 ---
 
 ---
-{"id":452890870,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDONxkjBM4a_pD2","tag_name":"@cloudflare/think@0.24.0","target_commitish":"main","name":"@cloudflare/think@0.24.0","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-11-20T15:56:28Z","updated_at":"2026-11-20T15:56:36Z","published_at":"2026-11-20T15:56:36Z","assets":[],"body":"This release moves Think to Computer 0.10, and restarting a Think agent no longer creates a new Dynamic Worker for each extension.\n\n### Highlights\n\n-   **Computer 0.10:** Think's `@cloudflare/computer` peer is now `^0.10.0`. Computer's JavaScript backend is now `CodemodeBackend`, and host modules such as `ws:tools` are now `codemode:tools`. See [Running code with `exec`](https://github.com/cloudflare/agents/blob/main/docs/think/tools.md#running-code-with-exec).\n-   **Stable extension workers:** `ExtensionManager` derives each Dynamic Worker's id from a hash of the extension's code and configuration instead of `Date.now()`, so restarting a Think Durable Object no longer creates, and bills, a new Dynamic Worker per extension. Extensions with a host binding can add the agent and context labels with the new `workerIdScope` option.\n-   **Recovery:** an interrupted continuation is recovered into the assistant message it continues, instead of as a duplicate message.\n-   **Retired models:** examples and messages move off the Workers AI models retired on November 20, 2026.\n\n### Upgrading\n\n1.  **Update `agents` to 0.34.0 and `@cloudflare/computer` to `^0.10.0`** with Think. Think now requires `agents` >=0.34.0.\n\n2.  **Import the JavaScript backend as `CodemodeBackend`:**\n\n    ```diff\n    - import { WorkerJavaScriptBackend } from \"@cloudflare/computer/backends/worker-javascript\";\n    + import { CodemodeBackend } from \"@cloudflare/computer/backends/codemode\";\n    ```\n\n3.  **Rename host modules from `ws:` to `codemode:`**, such as `ws:tools` to `codemode:tools` and `ws:git` to `codemode:git`, in your backend's `modules` and in any code or prompts that import them.\n\n4.  **Check backend ids.** The backend's default id is now `codemode`. If anything refers to an id such as `js`, update it, or pass that `id` to `CodemodeBackend`.\n\n### Minor Changes\n\n-   [#2819](https://github.com/cloudflare/agents/pull/2819) [`9b54e51`](https://github.com/cloudflare/agents/commit/9b54e51a2f68b8aa7b5e42ad4635351c889670c0) Thanks [@ben-reitz](https://github.com/ben-reitz)! - Think's `@cloudflare/computer` peer is now `^0.10.0`, so upgrade Computer to 0.10 alongside Think. Its JavaScript backend is now `CodemodeBackend` from `@cloudflare/computer/backends/codemode`, and host modules such as `ws:tools` are now `codemode:tools`. See [Running code with `exec`](https://github.com/cloudflare/agents/blob/main/docs/think/tools.md#running-code-with-exec).\n\n### Patch Changes\n\n-   [#2781](https://github.com/cloudflare/agents/pull/2781) [`366d5b5`](https://github.com/cloudflare/agents/commit/366d5b5baf846b4669a2ecd0e61e104aa634432b) Thanks [@github-actions](https://github.com/apps/github-actions)! - Fix Think recovering an interrupted continuation as a duplicate assistant message; recovery now rebuilds the message it continues. Think now requires `agents` >=0.34.0. See [Chat Recovery](https://github.com/cloudflare/agents/blob/main/docs/think/index.md#chat-recovery).\n\n-   [#2899](https://github.com/cloudflare/agents/pull/2899) [`1a450e7`](https://github.com/cloudflare/agents/commit/1a450e71325c25ca1ec8b0013d756fe0c733b6f3) Thanks [@ben-reitz](https://github.com/ben-reitz)! - Move off the Workers AI models retired on November 20, 2026: drop MeloTTS and `whisper-tiny-en` handling, send `@cf/google/embeddinggemma-2` its `{ input }` shape, and suggest `@cf/deepseek-ai/deepseek-v4.1-flash-1017` in examples and messages. See [Planned model deprecations](https://developers.cloudflare.com/changelog/post/2026-11-05-planned-model-deprecations/).\n\n-   [#2912](https://github.com/cloudflare/agents/pull/2912) [`81726f7`](https://github.com/cloudflare/agents/commit/81726f7d18206a0864d183c219fad9fa6e7e28e6) Thanks [@github-actions](https://github.com/apps/github-actions)! - `ExtensionManager` now derives the Dynamic Worker id from a hash of the extension's code and configuration (plus the agent and context labels for extensions with a host binding, via the new `workerIdScope` option) instead of `Date.now()`, so restarting a Think Durable Object no longer creates (and bills) a new Dynamic Worker per extension. See [#2911](https://github.com/cloudflare/agents/issues/2911).\n"}
+{"id":458594044,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDONxkjBM4bVZb8","tag_name":"agents@0.34.1","target_commitish":"main","name":"agents@0.34.1","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-11-25T20:07:36Z","updated_at":"2026-11-25T20:07:38Z","published_at":"2026-11-25T20:07:38Z","assets":[],"body":"### Patch Changes\n\n-   [#3171](https://github.com/cloudflare/agents/pull/3171) [`9448cd8`](https://github.com/cloudflare/agents/commit/9448cd82e974a16015a66dac8f820a42474c4672) Thanks [@ben-reitz](https://github.com/ben-reitz)! - Support Pi 1.6.1 (`~1.6.1`). Pi tools now park with `{ kind: \"sleep\", signals, until }` instead of `{ sleep: { ... } }`, and a signal's state is `{ kind: \"value\", value }` or `{ kind: \"expired\" }`; a tool that still returns the old shape compiles but ends with an empty result, so update parking tools when you upgrade. `agents/models/pi-ai` now matches pi-ai 1.6.1: a chat-completions stream that ends with `finish_reason: \"error\"` fails with an error the Pi harness retries under its retry settings, `rawStopReason` records the provider's reason (with OpenRouter's `native_finish_reason`), an OpenRouter `stop` with no output and a failing native reason is a retryable error, and `onResponse` sees every response, failures included. The `agents/models` SSE decoder reads large streamed events in linear time. See [pi-durable 1.6.1's changelog](https://github.com/earendil-works/pi/blob/v1.6.1/packages/durable/CHANGELOG.md#161---2026-11-25) and [Pi harness](https://developers.cloudflare.com/agents/harnesses/pi/#tools-that-wait).\n"}
