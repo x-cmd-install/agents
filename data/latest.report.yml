@@ -2,140 +2,140 @@ about:
   description: "Build and deploy AI Agents on Cloudflare "
   license: MIT
   homepage: https://developers.cloudflare.com/agents/
-  head: b878ced
+  head: 342cf93
   archived: false
   latestVersion: "agents@0.34.1"
   latestRelease: "agents@0.34.1"
   latestPrerelease: ""
-  collectedAt: 2026-11-26T09:22:20Z
+  collectedAt: 2026-11-27T10:27:03Z
 timeline:
   created: 2025-01-29
-  lastCommit: 2026-11-26
+  lastCommit: 2026-11-27
   lastVersion: 2026-11-25
   lastRelease: 2026-11-25
   lastPrerelease: 
 popularity:
-  star: 6149
+  star: 6159
   watcher: 32
-  fork: 871
+  fork: 874
   release: 428
   contributor: 167
-  pullRequest: 2176
-  issue: 941
+  pullRequest: 2384
+  issue: 942
 language:
-  TypeScript: 20546308
-  JavaScript: 62313
-  CSS: 41550
-  Shell: 11361
+  TypeScript: 20780322
+  CSS: 34139
+  JavaScript: 18915
   Astro: 10908
-  HTML: 7527
   Dockerfile: 5576
-totalBytes: 20685543
+  HTML: 3773
+  Shell: 3561
+totalBytes: 20857194
 recent:
   last30d:
-    since: 2026-10-27
-    release: 10
-    mergedPR: 317
-    openPR: 28
-    closedIssue: 65
+    since: 2026-10-28
+    release: 8
+    mergedPR: 479
+    openPR: 65
+    closedIssue: 66
     openIssue: 15
-    commit: 306
+    commit: 472
   last60d:
-    since: 2026-09-27
+    since: 2026-09-28
     release: 30
-    mergedPR: 499
-    openPR: 36
-    closedIssue: 105
-    openIssue: 76
-    commit: 488
+    mergedPR: 651
+    openPR: 73
+    closedIssue: 109
+    openIssue: 73
+    commit: 654
   last90d:
-    since: 2026-08-28
+    since: 2026-08-29
     release: 45
-    mergedPR: 596
-    openPR: 45
-    closedIssue: 153
-    openIssue: 89
-    commit: 606
+    mergedPR: 761
+    openPR: 82
+    closedIssue: 156
+    openIssue: 85
+    commit: 772
   last180d:
-    since: 2026-05-30
+    since: 2026-05-31
     release: 100
-    mergedPR: 844
-    openPR: 51
-    closedIssue: 320
-    openIssue: 123
-    commit: 859
+    mergedPR: 1004
+    openPR: 88
+    closedIssue: 317
+    openIssue: 120
+    commit: 1025
   last360d:
-    since: 2025-12-01
+    since: 2025-12-02
     release: 100
-    mergedPR: 1350
-    openPR: 52
-    closedIssue: 595
-    openIssue: 153
-    commit: 1504
+    mergedPR: 1515
+    openPR: 89
+    closedIssue: 598
+    openIssue: 150
+    commit: 1670
   last720d:
-    since: 2024-12-06
+    since: 2024-12-07
     release: 100
-    mergedPR: 1765
-    openPR: 52
-    closedIssue: 786
-    openIssue: 155
-    commit: 2125
+    mergedPR: 1930
+    openPR: 89
+    closedIssue: 790
+    openIssue: 152
+    commit: 2294
 total:
   release: 428
-  mergedPR: 1766
-  openPR: 52
-  closedIssue: 786
-  openIssue: 155
-  commit: 2125
+  mergedPR: 1931
+  openPR: 89
+  closedIssue: 790
+  openIssue: 152
+  commit: 2294
 ---
 path: /home/runner/.x-repo/github.com/cloudflare/agents
-collectedAt: 2026-11-26T09:22:36Z
+collectedAt: 2026-11-27T10:27:14Z
 loc:
   TypeScript:
-    code: 498278
-    comments: 86699
-    blanks: 55790
-    files: 2081
+    code: 508810
+    comments: 87365
+    blanks: 55598
+    files: 2059
   Tsx:
-    code: 74099
-    comments: 3666
-    blanks: 5929
-    files: 205
+    code: 71116
+    comments: 3533
+    blanks: 5680
+    files: 192
   Yaml:
-    code: 25775
+    code: 25711
     comments: 54
-    blanks: 1742
+    blanks: 1754
     files: 6
   Json:
-    code: 12449
+    code: 12084
     comments: 0
     blanks: 5
-    files: 260
+    files: 235
   Css:
-    code: 4750
-    comments: 586
-    blanks: 749
-    files: 74
-  JavaScript:
-    code: 1748
-    comments: 334
-    blanks: 157
-    files: 14
+    code: 4511
+    comments: 568
+    blanks: 728
+    files: 68
   Html:
-    code: 1111
+    code: 1015
     comments: 4
     blanks: 0
-    files: 77
+    files: 70
+  JavaScript:
+    code: 818
+    comments: 93
+    blanks: 63
+    files: 11
   Rust:
     code: 670
     comments: 7
     blanks: 46
     files: 1
   Sh:
-    code: 291
-    comments: 36
-    blanks: 35
-    files: 6
+    code: 112
+    comments: 5
+    blanks: 12
+    files: 1
   Dockerfile:
     code: 58
     comments: 85
@@ -163,19 +163,19 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 54848
-    blanks: 19720
-    files: 303
+    comments: 53818
+    blanks: 19281
+    files: 288
   Text:
     code: 0
     comments: 733
     blanks: 160
     files: 15
 total:
-  code: 630783
-  comments: 148173
-  blanks: 85653
-  files: 3057
+  code: 636098
+  comments: 147317
+  blanks: 84596
+  files: 2961
 ---
 
 ---
